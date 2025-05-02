@@ -1,6 +1,8 @@
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI
 import random
+from dotenv import load_dotenv
+load_dotenv()
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
 
