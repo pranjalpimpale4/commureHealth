@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Node.js
+node_modules/
+dist/
+
+# Mac / Linux / IDEs
+.DS_Store
+.env
+*.log
