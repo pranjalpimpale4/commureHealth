@@ -6,12 +6,20 @@ import json
 from datetime import date
 from datetime import date, timedelta
 import os
+from fastapi import FastAPI
+app = FastAPI()
 router = APIRouter()
 from agents.appointment_forecaster import run_forecast
 from fastapi.responses import JSONResponse
 from datetime import datetime
 from agents.disaster_inventory_agent import run_disaster_inventory_agent  # ✅ Step 3 agent import
 from tools.fetch_disasters import  DisasterFetcher
+
+
+from . import chat
+app.include_router(chat.router)
+
+
 
 @router.get("/check-inventory")
 def check_inventory(session: Session = Depends(get_session)):
