@@ -49,7 +49,7 @@ const DashboardHome = () => {
 
   return (
     <div className="dashboard-full">
-      <h2 className="dashboard-title">🏥 Hospital Inventory Dashboard</h2>
+      <h2 className="dashboard-title">Hospital Inventory Dashboard</h2>
 
       <div className="kpi-row">
         <div className="tile">

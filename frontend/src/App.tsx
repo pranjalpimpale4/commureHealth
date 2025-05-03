@@ -33,7 +33,7 @@ function App() {
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bold" to="/">SUPPLYLINE</Link>
+          <Link className="navbar-brand fw-bold" to="/">OptiPulse</Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -68,10 +68,7 @@ function App() {
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            
           </div>
         </div>
       </nav>

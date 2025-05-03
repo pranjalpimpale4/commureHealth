@@ -13,7 +13,7 @@ const navItems = [
   {
     title: "Disaster",
     path: "/disaster",
-    description: "Predict and respond to disasters with data-driven insights.",
+    description: "Predict and respond to emergencies with data-driven insights.",
     img: "https://cdn-icons-png.flaticon.com/512/1159/1159633.png",
   },
   {
@@ -46,7 +46,7 @@ const Landing = () => {
       <section className="hero-section">
         <div className="hero-text-wrapper">
           <h1 className="hero-title">
-            The technology behind<br /> advanced health systems.
+            The technology to support<br /> advanced health systems.
           </h1>
           <p className="hero-subtitle">
             We build software and AI experiences that simplify provider, administrator, and patient workflows.
@@ -60,7 +60,7 @@ const Landing = () => {
 
       <section className="features-section full-width-screen">
         <h3 className="features-heading">
-          EXTENSIBLE, INTEGRATED TECHNOLOGY THAT SIMPLIFIES HEALTH SYSTEMS.
+          EXTENSIBLE, INTEGRATED TECHNOLOGY THAT SIMPLIFIES WORKIMG OF HEALTH SYSTEMS.
         </h3>
         <div className="feature-grid">
           {navItems.map((item, index) => (
