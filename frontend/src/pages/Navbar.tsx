@@ -23,7 +23,6 @@ const Navbar = () => {
         <Link style={{ color: "#fff", textDecoration: "none" }} to="/home">Home</Link>
         <Link style={{ color: "#fff", textDecoration: "none" }} to="/inventory">Inventory</Link>
         <Link style={{ color: "#fff", textDecoration: "none" }} to="/disaster">Disaster</Link>
-        <Link style={{ color: "#fff", textDecoration: "none" }} to="/demand">Demand</Link>
       </div>
     </nav>
   );

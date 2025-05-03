@@ -2,15 +2,25 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Inventory from "./pages/Inventory";
 import Disaster from "./pages/Disaster";
-import Demand from "./pages/Demand";
-import Landing from "./pages/Landing";
 
+import Landing from "./pages/Landing";
+import "./App.css";
 
 function App() {
   return (
     <>
-      {/* Bootstrap Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      {/* ✅ Background Video (Vite uses /public/* directly) */}
+      
+      <video autoPlay muted loop playsInline className="background-video">
+      <source src="/hospital-bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+
+      <div className="background-overlay"></div>
+
+      {/* ✅ Navbar */}
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand fw-bold" to="/">SUPPLYLINE</Link>
           <button
@@ -36,11 +46,8 @@ function App() {
               <li className="nav-item">
                 <Link className="nav-link" to="/disaster">Disaster</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/demand">Demand</Link>
-              </li>
+              
             </ul>
-
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
@@ -49,14 +56,14 @@ function App() {
         </div>
       </nav>
 
-      {/* Page Content */}
+      {/* ✅ Page Content */}
       <div style={{ paddingTop: "80px" }}>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/home" element={<Home />} />
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/disaster" element={<Disaster />} />
-          <Route path="/demand" element={<Demand />} />
+         
         </Routes>
       </div>
     </>
