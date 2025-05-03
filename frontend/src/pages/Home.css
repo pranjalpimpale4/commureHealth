@@ -5,14 +5,14 @@ body, html, #root {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background: #0e0e0e;
+    background:transparent;
   }
   
   .home-container {
     width: 100vw;
     min-height: 100vh;
     padding: 4rem 2rem;
-    background: linear-gradient(-45deg, #0e0e0e, #1a1a1a, #111, #2b2b2b);
+    background: transparent;
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
     color: #f1f1f1;
@@ -48,18 +48,24 @@ body, html, #root {
   
   /* Make each chart take max 25% on large screens */
   .chart-card {
-    background-color: rgba(24, 24, 24, 0.9);
+    background: transparent;
     border-radius: 12px;
     padding: 1rem;
     width: 100%;
     max-width: 400px;
     flex: 1 1 22%;
     min-width: 300px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* lighter */
     transition: transform 0.3s ease;
   }
   
+  
   .chart-card:hover {
     transform: scale(1.03);
+  }
+  
+
+  canvas {
+    background-color: transparent !important;
   }
   

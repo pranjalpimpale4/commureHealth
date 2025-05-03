@@ -1,22 +1,36 @@
+import { useRef, useEffect } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Inventory from "./pages/Inventory";
 import Disaster from "./pages/Disaster";
-
 import Landing from "./pages/Landing";
 import "./App.css";
 
 function App() {
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5; // Slow down video
+    }
+  }, []);
+
   return (
     <>
-      {/* ✅ Background Video (Vite uses /public/* directly) */}
-      
-      <video autoPlay muted loop playsInline className="background-video">
-      <source src="/hospital-bg.mp4" type="video/mp4" />
+      {/* ✅ Background Video */}
+      <video
+        ref={videoRef}
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="background-video"
+      >
+        <source src="/hospital-bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-
+      {/* ✅ Overlay to darken */}
       <div className="background-overlay"></div>
 
       {/* ✅ Navbar */}
@@ -46,7 +60,6 @@ function App() {
               <li className="nav-item">
                 <Link className="nav-link" to="/disaster">Disaster</Link>
               </li>
-              
             </ul>
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" />
@@ -63,7 +76,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/disaster" element={<Disaster />} />
-         
         </Routes>
       </div>
     </>

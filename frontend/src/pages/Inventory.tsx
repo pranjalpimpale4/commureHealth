@@ -100,6 +100,7 @@ const Inventory = () => {
       {error && <p className="error">{error}</p>}
 
       <div className="inventory-content">
+        {/* Inventory Table Section */}
         <div className="inventory-table-section">
           <h2 className="section-title">Inventory Items</h2>
           <table className="inventory-table">
@@ -124,6 +125,7 @@ const Inventory = () => {
           </table>
         </div>
 
+        {/* Analytics Section */}
         <div className="inventory-analytics-section">
           <h2 className="section-title">Stock Overview</h2>
           <div className="chart-container">

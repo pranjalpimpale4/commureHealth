@@ -7,7 +7,7 @@ body {
 .disaster-container {
   width: 100vw;
   min-height: 100vh;
-  background-color: #0b0b0b;
+  background:transparent;
   color: #f1f1f1;
   padding: 2rem;
   box-sizing: border-box;
