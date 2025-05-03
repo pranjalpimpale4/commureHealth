@@ -7,6 +7,7 @@ load_dotenv()
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7)
 
 # Define a simple quote agent
+
 quote_agent = Agent(
     role="motivational thinker",
     goal="inspire users with brief and uplifting quotes",
