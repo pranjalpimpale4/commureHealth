@@ -1,0 +1,1222 @@
+date,activity_type,count,reason_context,hospital_address
+NA,NA,NA,NA,"Delhi, India"
+2023-01-01,Ortho_appointment,13,camp,Bangalore Health Center
+2023-01-01,Ortho_surgery,28,sports injury,Chennai City Clinic
+2023-01-01,Pediatrics_appointment,17,routine,Kolkata Medical Hub
+2023-01-01,Pediatrics_surgery,23,school health check,Chennai City Clinic
+2023-01-01,Emergency_appointment,28,pandemic wave,Kolkata Medical Hub
+2023-01-01,Emergency_surgery,23,accident,Kolkata Medical Hub
+2023-01-01,Dermatology_appointment,17,rash outbreak,Chennai City Clinic
+2023-01-01,Dermatology_surgery,25,allergy season,Chennai City Clinic
+2023-01-01,ICU_appointment,32,winter spike,Chennai City Clinic
+2023-01-01,ICU_surgery,15,winter spike,Chennai City Clinic
+2023-01-08,Ortho_appointment,14,camp,Chennai City Clinic
+2023-01-08,Ortho_surgery,9,camp,Kolkata Medical Hub
+2023-01-08,Pediatrics_appointment,20,camp,Bangalore Health Center
+2023-01-08,Pediatrics_surgery,23,school health check,Bangalore Health Center
+2023-01-08,Emergency_appointment,25,fire outbreak,Mumbai Trauma Center
+2023-01-08,Emergency_surgery,18,accident,Mumbai Trauma Center
+2023-01-08,Dermatology_appointment,15,rash outbreak,Kolkata Medical Hub
+2023-01-08,Dermatology_surgery,20,allergy season,Chennai City Clinic
+2023-01-08,ICU_appointment,14,flu season,Mumbai Trauma Center
+2023-01-08,ICU_surgery,24,flu season,Bangalore Health Center
+2023-01-15,Ortho_appointment,29,routine checkup,Delhi General Hospital
+2023-01-15,Ortho_surgery,22,sports injury,Mumbai Trauma Center
+2023-01-15,Pediatrics_appointment,16,routine,Chennai City Clinic
+2023-01-15,Pediatrics_surgery,24,school health check,Mumbai Trauma Center
+2023-01-15,Emergency_appointment,18,pandemic wave,Bangalore Health Center
+2023-01-15,Emergency_surgery,13,accident,Kolkata Medical Hub
+2023-01-15,Dermatology_appointment,18,rash outbreak,Mumbai Trauma Center
+2023-01-15,Dermatology_surgery,17,skin camp,Delhi General Hospital
+2023-01-15,ICU_appointment,21,flu season,Bangalore Health Center
+2023-01-15,ICU_surgery,26,winter spike,Delhi General Hospital
+2023-01-22,Ortho_appointment,19,routine checkup,Chennai City Clinic
+2023-01-22,Ortho_surgery,13,sports injury,Bangalore Health Center
+2023-01-22,Pediatrics_appointment,20,camp,Kolkata Medical Hub
+2023-01-22,Pediatrics_surgery,11,routine,Delhi General Hospital
+2023-01-22,Emergency_appointment,30,pandemic wave,Kolkata Medical Hub
+2023-01-22,Emergency_surgery,33,accident,Kolkata Medical Hub
+2023-01-22,Dermatology_appointment,11,routine,Delhi General Hospital
+2023-01-22,Dermatology_surgery,31,allergy season,Bangalore Health Center
+2023-01-22,ICU_appointment,27,heat wave,Chennai City Clinic
+2023-01-22,ICU_surgery,13,winter spike,Kolkata Medical Hub
+2023-01-29,Ortho_appointment,33,routine checkup,Chennai City Clinic
+2023-01-29,Ortho_surgery,12,routine checkup,Bangalore Health Center
+2023-01-29,Pediatrics_appointment,23,camp,Bangalore Health Center
+2023-01-29,Pediatrics_surgery,28,camp,Delhi General Hospital
+2023-01-29,Emergency_appointment,20,accident,Kolkata Medical Hub
+2023-01-29,Emergency_surgery,20,accident,Bangalore Health Center
+2023-01-29,Dermatology_appointment,28,routine,Kolkata Medical Hub
+2023-01-29,Dermatology_surgery,15,skin camp,Kolkata Medical Hub
+2023-01-29,ICU_appointment,24,heat wave,Delhi General Hospital
+2023-01-29,ICU_surgery,17,heat wave,Chennai City Clinic
+2023-02-05,Ortho_appointment,28,knee surgery season,Delhi General Hospital
+2023-02-05,Ortho_surgery,12,sports injury,Kolkata Medical Hub
+2023-02-05,Pediatrics_appointment,11,routine,Mumbai Trauma Center
+2023-02-05,Pediatrics_surgery,31,routine,Chennai City Clinic
+2023-02-05,Emergency_appointment,23,fire outbreak,Delhi General Hospital
+2023-02-05,Emergency_surgery,11,fire outbreak,Delhi General Hospital
+2023-02-05,Dermatology_appointment,14,skin camp,Chennai City Clinic
+2023-02-05,Dermatology_surgery,20,allergy season,Mumbai Trauma Center
+2023-02-05,ICU_appointment,15,flu season,Mumbai Trauma Center
+2023-02-05,ICU_surgery,26,respiratory issues,Bangalore Health Center
+2023-02-12,Ortho_appointment,25,camp,Delhi General Hospital
+2023-02-12,Ortho_surgery,28,camp,Kolkata Medical Hub
+2023-02-12,Pediatrics_appointment,18,routine,Mumbai Trauma Center
+2023-02-12,Pediatrics_surgery,15,school health check,Delhi General Hospital
+2023-02-12,Emergency_appointment,25,fire outbreak,Mumbai Trauma Center
+2023-02-12,Emergency_surgery,27,pandemic wave,Delhi General Hospital
+2023-02-12,Dermatology_appointment,20,skin camp,Bangalore Health Center
+2023-02-12,Dermatology_surgery,29,routine,Bangalore Health Center
+2023-02-12,ICU_appointment,16,winter spike,Bangalore Health Center
+2023-02-12,ICU_surgery,31,winter spike,Mumbai Trauma Center
+2023-02-19,Ortho_appointment,18,knee surgery season,Bangalore Health Center
+2023-02-19,Ortho_surgery,25,sports injury,Mumbai Trauma Center
+2023-02-19,Pediatrics_appointment,11,flu season,Bangalore Health Center
+2023-02-19,Pediatrics_surgery,20,flu season,Delhi General Hospital
+2023-02-19,Emergency_appointment,33,unknown,Kolkata Medical Hub
+2023-02-19,Emergency_surgery,25,accident,Chennai City Clinic
+2023-02-19,Dermatology_appointment,25,rash outbreak,Delhi General Hospital
+2023-02-19,Dermatology_surgery,13,routine,Kolkata Medical Hub
+2023-02-19,ICU_appointment,23,heat wave,Chennai City Clinic
+2023-02-19,ICU_surgery,12,winter spike,Chennai City Clinic
+2023-02-26,Ortho_appointment,31,routine checkup,Mumbai Trauma Center
+2023-02-26,Ortho_surgery,15,camp,Mumbai Trauma Center
+2023-02-26,Pediatrics_appointment,21,camp,Chennai City Clinic
+2023-02-26,Pediatrics_surgery,16,routine,Delhi General Hospital
+2023-02-26,Emergency_appointment,23,pandemic wave,Delhi General Hospital
+2023-02-26,Emergency_surgery,18,unknown,Delhi General Hospital
+2023-02-26,Dermatology_appointment,17,rash outbreak,Mumbai Trauma Center
+2023-02-26,Dermatology_surgery,16,skin camp,Kolkata Medical Hub
+2023-02-26,ICU_appointment,26,winter spike,Delhi General Hospital
+2023-02-26,ICU_surgery,11,respiratory issues,Delhi General Hospital
+2023-03-05,Ortho_appointment,29,sports injury,Delhi General Hospital
+2023-03-05,Ortho_surgery,18,camp,Kolkata Medical Hub
+2023-03-05,Pediatrics_appointment,24,camp,Bangalore Health Center
+2023-03-05,Pediatrics_surgery,29,routine,Kolkata Medical Hub
+2023-03-05,Emergency_appointment,37,pandemic wave,Delhi General Hospital
+2023-03-05,Emergency_surgery,29,accident,Delhi General Hospital
+2023-03-05,Dermatology_appointment,26,rash outbreak,Delhi General Hospital
+2023-03-05,Dermatology_surgery,18,routine,Bangalore Health Center
+2023-03-05,ICU_appointment,30,flu season,Kolkata Medical Hub
+2023-03-05,ICU_surgery,28,respiratory issues,Bangalore Health Center
+2023-03-12,Ortho_appointment,32,camp,Chennai City Clinic
+2023-03-12,Ortho_surgery,31,routine checkup,Bangalore Health Center
+2023-03-12,Pediatrics_appointment,11,school health check,Bangalore Health Center
+2023-03-12,Pediatrics_surgery,25,routine,Chennai City Clinic
+2023-03-12,Emergency_appointment,32,fire outbreak,Bangalore Health Center
+2023-03-12,Emergency_surgery,23,fire outbreak,Chennai City Clinic
+2023-03-12,Dermatology_appointment,29,routine,Chennai City Clinic
+2023-03-12,Dermatology_surgery,23,skin camp,Delhi General Hospital
+2023-03-12,ICU_appointment,27,flu season,Delhi General Hospital
+2023-03-12,ICU_surgery,14,winter spike,Kolkata Medical Hub
+2023-03-19,Ortho_appointment,26,knee surgery season,Kolkata Medical Hub
+2023-03-19,Ortho_surgery,25,sports injury,Kolkata Medical Hub
+2023-03-19,Pediatrics_appointment,20,flu season,Chennai City Clinic
+2023-03-19,Pediatrics_surgery,31,camp,Mumbai Trauma Center
+2023-03-19,Emergency_appointment,21,pandemic wave,Delhi General Hospital
+2023-03-19,Emergency_surgery,16,accident,Chennai City Clinic
+2023-03-19,Dermatology_appointment,19,rash outbreak,Kolkata Medical Hub
+2023-03-19,Dermatology_surgery,15,skin camp,Delhi General Hospital
+2023-03-19,ICU_appointment,30,respiratory issues,Kolkata Medical Hub
+2023-03-19,ICU_surgery,19,winter spike,Kolkata Medical Hub
+2023-03-26,Ortho_appointment,34,knee surgery season,Kolkata Medical Hub
+2023-03-26,Ortho_surgery,14,knee surgery season,Delhi General Hospital
+2023-03-26,Pediatrics_appointment,25,school health check,Chennai City Clinic
+2023-03-26,Pediatrics_surgery,23,flu season,Mumbai Trauma Center
+2023-03-26,Emergency_appointment,31,pandemic wave,Kolkata Medical Hub
+2023-03-26,Emergency_surgery,8,pandemic wave,Bangalore Health Center
+2023-03-26,Dermatology_appointment,16,allergy season,Mumbai Trauma Center
+2023-03-26,Dermatology_surgery,31,skin camp,Mumbai Trauma Center
+2023-03-26,ICU_appointment,31,flu season,Mumbai Trauma Center
+2023-03-26,ICU_surgery,22,winter spike,Kolkata Medical Hub
+2023-04-02,Ortho_appointment,34,routine checkup,Delhi General Hospital
+2023-04-02,Ortho_surgery,26,knee surgery season,Delhi General Hospital
+2023-04-02,Pediatrics_appointment,28,flu season,Delhi General Hospital
+2023-04-02,Pediatrics_surgery,28,camp,Chennai City Clinic
+2023-04-02,Emergency_appointment,27,fire outbreak,Chennai City Clinic
+2023-04-02,Emergency_surgery,24,pandemic wave,Chennai City Clinic
+2023-04-02,Dermatology_appointment,19,rash outbreak,Delhi General Hospital
+2023-04-02,Dermatology_surgery,24,skin camp,Mumbai Trauma Center
+2023-04-02,ICU_appointment,30,heat wave,Chennai City Clinic
+2023-04-02,ICU_surgery,20,flu season,Delhi General Hospital
+2023-04-09,Ortho_appointment,11,knee surgery season,Bangalore Health Center
+2023-04-09,Ortho_surgery,17,routine checkup,Kolkata Medical Hub
+2023-04-09,Pediatrics_appointment,33,camp,Chennai City Clinic
+2023-04-09,Pediatrics_surgery,22,flu season,Kolkata Medical Hub
+2023-04-09,Emergency_appointment,22,unknown,Bangalore Health Center
+2023-04-09,Emergency_surgery,18,unknown,Kolkata Medical Hub
+2023-04-09,Dermatology_appointment,31,skin camp,Kolkata Medical Hub
+2023-04-09,Dermatology_surgery,13,routine,Mumbai Trauma Center
+2023-04-09,ICU_appointment,14,flu season,Delhi General Hospital
+2023-04-09,ICU_surgery,32,respiratory issues,Chennai City Clinic
+2023-04-16,Ortho_appointment,21,camp,Delhi General Hospital
+2023-04-16,Ortho_surgery,20,sports injury,Kolkata Medical Hub
+2023-04-16,Pediatrics_appointment,17,school health check,Bangalore Health Center
+2023-04-16,Pediatrics_surgery,13,flu season,Delhi General Hospital
+2023-04-16,Emergency_appointment,19,unknown,Bangalore Health Center
+2023-04-16,Emergency_surgery,13,accident,Delhi General Hospital
+2023-04-16,Dermatology_appointment,31,skin camp,Mumbai Trauma Center
+2023-04-16,Dermatology_surgery,13,skin camp,Mumbai Trauma Center
+2023-04-16,ICU_appointment,27,respiratory issues,Chennai City Clinic
+2023-04-16,ICU_surgery,16,flu season,Mumbai Trauma Center
+2023-04-23,Ortho_appointment,20,sports injury,Chennai City Clinic
+2023-04-23,Ortho_surgery,23,knee surgery season,Delhi General Hospital
+2023-04-23,Pediatrics_appointment,16,school health check,Delhi General Hospital
+2023-04-23,Pediatrics_surgery,16,school health check,Chennai City Clinic
+2023-04-23,Emergency_appointment,19,unknown,Mumbai Trauma Center
+2023-04-23,Emergency_surgery,21,unknown,Chennai City Clinic
+2023-04-23,Dermatology_appointment,16,routine,Chennai City Clinic
+2023-04-23,Dermatology_surgery,17,allergy season,Kolkata Medical Hub
+2023-04-23,ICU_appointment,23,flu season,Kolkata Medical Hub
+2023-04-23,ICU_surgery,28,heat wave,Delhi General Hospital
+2023-04-30,Ortho_appointment,22,camp,Kolkata Medical Hub
+2023-04-30,Ortho_surgery,18,camp,Bangalore Health Center
+2023-04-30,Pediatrics_appointment,27,routine,Delhi General Hospital
+2023-04-30,Pediatrics_surgery,14,school health check,Kolkata Medical Hub
+2023-04-30,Emergency_appointment,17,fire outbreak,Mumbai Trauma Center
+2023-04-30,Emergency_surgery,14,fire outbreak,Chennai City Clinic
+2023-04-30,Dermatology_appointment,27,rash outbreak,Chennai City Clinic
+2023-04-30,Dermatology_surgery,25,skin camp,Mumbai Trauma Center
+2023-04-30,ICU_appointment,25,flu season,Bangalore Health Center
+2023-04-30,ICU_surgery,25,flu season,Chennai City Clinic
+2023-05-07,Ortho_appointment,28,routine checkup,Mumbai Trauma Center
+2023-05-07,Ortho_surgery,16,camp,Kolkata Medical Hub
+2023-05-07,Pediatrics_appointment,25,routine,Chennai City Clinic
+2023-05-07,Pediatrics_surgery,12,flu season,Kolkata Medical Hub
+2023-05-07,Emergency_appointment,13,unknown,Bangalore Health Center
+2023-05-07,Emergency_surgery,25,unknown,Delhi General Hospital
+2023-05-07,Dermatology_appointment,23,allergy season,Mumbai Trauma Center
+2023-05-07,Dermatology_surgery,12,rash outbreak,Kolkata Medical Hub
+2023-05-07,ICU_appointment,32,respiratory issues,Kolkata Medical Hub
+2023-05-07,ICU_surgery,16,heat wave,Mumbai Trauma Center
+2023-05-14,Ortho_appointment,20,sports injury,Bangalore Health Center
+2023-05-14,Ortho_surgery,17,knee surgery season,Chennai City Clinic
+2023-05-14,Pediatrics_appointment,13,flu season,Kolkata Medical Hub
+2023-05-14,Pediatrics_surgery,19,routine,Chennai City Clinic
+2023-05-14,Emergency_appointment,34,unknown,Chennai City Clinic
+2023-05-14,Emergency_surgery,16,accident,Mumbai Trauma Center
+2023-05-14,Dermatology_appointment,22,rash outbreak,Delhi General Hospital
+2023-05-14,Dermatology_surgery,24,rash outbreak,Delhi General Hospital
+2023-05-14,ICU_appointment,16,heat wave,Bangalore Health Center
+2023-05-14,ICU_surgery,23,respiratory issues,Chennai City Clinic
+2023-05-21,Ortho_appointment,16,camp,Kolkata Medical Hub
+2023-05-21,Ortho_surgery,16,routine checkup,Bangalore Health Center
+2023-05-21,Pediatrics_appointment,23,routine,Mumbai Trauma Center
+2023-05-21,Pediatrics_surgery,29,routine,Mumbai Trauma Center
+2023-05-21,Emergency_appointment,16,fire outbreak,Bangalore Health Center
+2023-05-21,Emergency_surgery,18,fire outbreak,Mumbai Trauma Center
+2023-05-21,Dermatology_appointment,30,skin camp,Mumbai Trauma Center
+2023-05-21,Dermatology_surgery,16,routine,Bangalore Health Center
+2023-05-21,ICU_appointment,14,winter spike,Kolkata Medical Hub
+2023-05-21,ICU_surgery,26,respiratory issues,Bangalore Health Center
+2023-05-28,Ortho_appointment,21,routine checkup,Mumbai Trauma Center
+2023-05-28,Ortho_surgery,28,sports injury,Chennai City Clinic
+2023-05-28,Pediatrics_appointment,33,school health check,Delhi General Hospital
+2023-05-28,Pediatrics_surgery,27,school health check,Delhi General Hospital
+2023-05-28,Emergency_appointment,19,accident,Mumbai Trauma Center
+2023-05-28,Emergency_surgery,11,pandemic wave,Bangalore Health Center
+2023-05-28,Dermatology_appointment,22,skin camp,Chennai City Clinic
+2023-05-28,Dermatology_surgery,28,routine,Delhi General Hospital
+2023-05-28,ICU_appointment,18,respiratory issues,Delhi General Hospital
+2023-05-28,ICU_surgery,27,winter spike,Mumbai Trauma Center
+2023-06-04,Ortho_appointment,22,routine checkup,Bangalore Health Center
+2023-06-04,Ortho_surgery,10,sports injury,Delhi General Hospital
+2023-06-04,Pediatrics_appointment,21,routine,Kolkata Medical Hub
+2023-06-04,Pediatrics_surgery,15,flu season,Bangalore Health Center
+2023-06-04,Emergency_appointment,15,fire outbreak,Kolkata Medical Hub
+2023-06-04,Emergency_surgery,23,fire outbreak,Mumbai Trauma Center
+2023-06-04,Dermatology_appointment,28,routine,Bangalore Health Center
+2023-06-04,Dermatology_surgery,27,rash outbreak,Mumbai Trauma Center
+2023-06-04,ICU_appointment,30,respiratory issues,Chennai City Clinic
+2023-06-04,ICU_surgery,29,winter spike,Chennai City Clinic
+2023-06-11,Ortho_appointment,11,sports injury,Kolkata Medical Hub
+2023-06-11,Ortho_surgery,22,sports injury,Bangalore Health Center
+2023-06-11,Pediatrics_appointment,27,camp,Chennai City Clinic
+2023-06-11,Pediatrics_surgery,25,routine,Kolkata Medical Hub
+2023-06-11,Emergency_appointment,20,fire outbreak,Mumbai Trauma Center
+2023-06-11,Emergency_surgery,22,fire outbreak,Mumbai Trauma Center
+2023-06-11,Dermatology_appointment,19,routine,Kolkata Medical Hub
+2023-06-11,Dermatology_surgery,23,allergy season,Bangalore Health Center
+2023-06-11,ICU_appointment,22,respiratory issues,Mumbai Trauma Center
+2023-06-11,ICU_surgery,13,flu season,Delhi General Hospital
+2023-06-18,Ortho_appointment,20,routine checkup,Mumbai Trauma Center
+2023-06-18,Ortho_surgery,27,camp,Delhi General Hospital
+2023-06-18,Pediatrics_appointment,31,routine,Delhi General Hospital
+2023-06-18,Pediatrics_surgery,8,camp,Bangalore Health Center
+2023-06-18,Emergency_appointment,29,fire outbreak,Bangalore Health Center
+2023-06-18,Emergency_surgery,25,accident,Chennai City Clinic
+2023-06-18,Dermatology_appointment,25,allergy season,Mumbai Trauma Center
+2023-06-18,Dermatology_surgery,26,routine,Delhi General Hospital
+2023-06-18,ICU_appointment,28,heat wave,Kolkata Medical Hub
+2023-06-18,ICU_surgery,21,heat wave,Delhi General Hospital
+2023-06-25,Ortho_appointment,29,camp,Delhi General Hospital
+2023-06-25,Ortho_surgery,12,routine checkup,Delhi General Hospital
+2023-06-25,Pediatrics_appointment,13,routine,Chennai City Clinic
+2023-06-25,Pediatrics_surgery,29,camp,Mumbai Trauma Center
+2023-06-25,Emergency_appointment,29,fire outbreak,Chennai City Clinic
+2023-06-25,Emergency_surgery,33,fire outbreak,Bangalore Health Center
+2023-06-25,Dermatology_appointment,10,skin camp,Chennai City Clinic
+2023-06-25,Dermatology_surgery,19,skin camp,Chennai City Clinic
+2023-06-25,ICU_appointment,30,heat wave,Chennai City Clinic
+2023-06-25,ICU_surgery,18,flu season,Kolkata Medical Hub
+2023-07-02,Ortho_appointment,32,routine checkup,Bangalore Health Center
+2023-07-02,Ortho_surgery,18,sports injury,Chennai City Clinic
+2023-07-02,Pediatrics_appointment,22,routine,Delhi General Hospital
+2023-07-02,Pediatrics_surgery,9,routine,Kolkata Medical Hub
+2023-07-02,Emergency_appointment,12,fire outbreak,Chennai City Clinic
+2023-07-02,Emergency_surgery,14,unknown,Bangalore Health Center
+2023-07-02,Dermatology_appointment,27,allergy season,Delhi General Hospital
+2023-07-02,Dermatology_surgery,20,rash outbreak,Kolkata Medical Hub
+2023-07-02,ICU_appointment,11,winter spike,Delhi General Hospital
+2023-07-02,ICU_surgery,23,heat wave,Chennai City Clinic
+2023-07-09,Ortho_appointment,18,camp,Mumbai Trauma Center
+2023-07-09,Ortho_surgery,12,knee surgery season,Delhi General Hospital
+2023-07-09,Pediatrics_appointment,28,camp,Chennai City Clinic
+2023-07-09,Pediatrics_surgery,7,flu season,Bangalore Health Center
+2023-07-09,Emergency_appointment,20,accident,Mumbai Trauma Center
+2023-07-09,Emergency_surgery,27,accident,Chennai City Clinic
+2023-07-09,Dermatology_appointment,28,routine,Kolkata Medical Hub
+2023-07-09,Dermatology_surgery,28,skin camp,Mumbai Trauma Center
+2023-07-09,ICU_appointment,31,heat wave,Mumbai Trauma Center
+2023-07-09,ICU_surgery,19,winter spike,Kolkata Medical Hub
+2023-07-16,Ortho_appointment,20,routine checkup,Delhi General Hospital
+2023-07-16,Ortho_surgery,27,camp,Kolkata Medical Hub
+2023-07-16,Pediatrics_appointment,21,flu season,Delhi General Hospital
+2023-07-16,Pediatrics_surgery,22,camp,Kolkata Medical Hub
+2023-07-16,Emergency_appointment,12,fire outbreak,Bangalore Health Center
+2023-07-16,Emergency_surgery,18,pandemic wave,Bangalore Health Center
+2023-07-16,Dermatology_appointment,11,skin camp,Kolkata Medical Hub
+2023-07-16,Dermatology_surgery,15,routine,Kolkata Medical Hub
+2023-07-16,ICU_appointment,29,respiratory issues,Kolkata Medical Hub
+2023-07-16,ICU_surgery,19,heat wave,Bangalore Health Center
+2023-07-23,Ortho_appointment,24,routine checkup,Kolkata Medical Hub
+2023-07-23,Ortho_surgery,27,routine checkup,Mumbai Trauma Center
+2023-07-23,Pediatrics_appointment,18,school health check,Kolkata Medical Hub
+2023-07-23,Pediatrics_surgery,14,school health check,Bangalore Health Center
+2023-07-23,Emergency_appointment,30,accident,Delhi General Hospital
+2023-07-23,Emergency_surgery,12,unknown,Mumbai Trauma Center
+2023-07-23,Dermatology_appointment,21,routine,Kolkata Medical Hub
+2023-07-23,Dermatology_surgery,25,routine,Chennai City Clinic
+2023-07-23,ICU_appointment,18,winter spike,Mumbai Trauma Center
+2023-07-23,ICU_surgery,23,respiratory issues,Chennai City Clinic
+2023-07-30,Ortho_appointment,27,routine checkup,Delhi General Hospital
+2023-07-30,Ortho_surgery,30,knee surgery season,Bangalore Health Center
+2023-07-30,Pediatrics_appointment,18,routine,Bangalore Health Center
+2023-07-30,Pediatrics_surgery,9,camp,Chennai City Clinic
+2023-07-30,Emergency_appointment,19,pandemic wave,Mumbai Trauma Center
+2023-07-30,Emergency_surgery,24,accident,Chennai City Clinic
+2023-07-30,Dermatology_appointment,13,routine,Mumbai Trauma Center
+2023-07-30,Dermatology_surgery,15,allergy season,Delhi General Hospital
+2023-07-30,ICU_appointment,18,winter spike,Mumbai Trauma Center
+2023-07-30,ICU_surgery,26,respiratory issues,Chennai City Clinic
+2023-08-06,Ortho_appointment,23,sports injury,Bangalore Health Center
+2023-08-06,Ortho_surgery,16,routine checkup,Delhi General Hospital
+2023-08-06,Pediatrics_appointment,22,school health check,Chennai City Clinic
+2023-08-06,Pediatrics_surgery,17,camp,Kolkata Medical Hub
+2023-08-06,Emergency_appointment,7,accident,Delhi General Hospital
+2023-08-06,Emergency_surgery,14,unknown,Bangalore Health Center
+2023-08-06,Dermatology_appointment,26,skin camp,Chennai City Clinic
+2023-08-06,Dermatology_surgery,9,routine,Bangalore Health Center
+2023-08-06,ICU_appointment,23,heat wave,Chennai City Clinic
+2023-08-06,ICU_surgery,27,heat wave,Mumbai Trauma Center
+2023-08-13,Ortho_appointment,22,camp,Mumbai Trauma Center
+2023-08-13,Ortho_surgery,18,camp,Kolkata Medical Hub
+2023-08-13,Pediatrics_appointment,22,school health check,Bangalore Health Center
+2023-08-13,Pediatrics_surgery,19,routine,Kolkata Medical Hub
+2023-08-13,Emergency_appointment,16,accident,Bangalore Health Center
+2023-08-13,Emergency_surgery,13,pandemic wave,Bangalore Health Center
+2023-08-13,Dermatology_appointment,16,skin camp,Delhi General Hospital
+2023-08-13,Dermatology_surgery,22,routine,Mumbai Trauma Center
+2023-08-13,ICU_appointment,8,flu season,Mumbai Trauma Center
+2023-08-13,ICU_surgery,28,flu season,Delhi General Hospital
+2023-08-20,Ortho_appointment,23,sports injury,Bangalore Health Center
+2023-08-20,Ortho_surgery,28,sports injury,Chennai City Clinic
+2023-08-20,Pediatrics_appointment,23,camp,Bangalore Health Center
+2023-08-20,Pediatrics_surgery,23,routine,Kolkata Medical Hub
+2023-08-20,Emergency_appointment,24,pandemic wave,Delhi General Hospital
+2023-08-20,Emergency_surgery,17,unknown,Chennai City Clinic
+2023-08-20,Dermatology_appointment,85,skin camp,Chennai City Clinic
+2023-08-20,Dermatology_surgery,85,skin camp,Delhi General Hospital
+2023-08-20,ICU_appointment,15,flu season,Delhi General Hospital
+2023-08-20,ICU_surgery,28,heat wave,Mumbai Trauma Center
+2023-08-27,Ortho_appointment,20,knee surgery season,Bangalore Health Center
+2023-08-27,Ortho_surgery,27,knee surgery season,Bangalore Health Center
+2023-08-27,Pediatrics_appointment,8,camp,Mumbai Trauma Center
+2023-08-27,Pediatrics_surgery,23,camp,Bangalore Health Center
+2023-08-27,Emergency_appointment,7,fire outbreak,Chennai City Clinic
+2023-08-27,Emergency_surgery,17,unknown,Delhi General Hospital
+2023-08-27,Dermatology_appointment,18,rash outbreak,Delhi General Hospital
+2023-08-27,Dermatology_surgery,18,rash outbreak,Chennai City Clinic
+2023-08-27,ICU_appointment,14,flu season,Chennai City Clinic
+2023-08-27,ICU_surgery,16,flu season,Chennai City Clinic
+2023-09-03,Ortho_appointment,24,knee surgery season,Delhi General Hospital
+2023-09-03,Ortho_surgery,15,camp,Bangalore Health Center
+2023-09-03,Pediatrics_appointment,26,school health check,Delhi General Hospital
+2023-09-03,Pediatrics_surgery,21,school health check,Delhi General Hospital
+2023-09-03,Emergency_appointment,4,unknown,Mumbai Trauma Center
+2023-09-03,Emergency_surgery,23,unknown,Delhi General Hospital
+2023-09-03,Dermatology_appointment,10,allergy season,Bangalore Health Center
+2023-09-03,Dermatology_surgery,22,skin camp,Delhi General Hospital
+2023-09-03,ICU_appointment,10,flu season,Bangalore Health Center
+2023-09-03,ICU_surgery,29,flu season,Delhi General Hospital
+2023-09-10,Ortho_appointment,5,knee surgery season,Mumbai Trauma Center
+2023-09-10,Ortho_surgery,28,routine checkup,Bangalore Health Center
+2023-09-10,Pediatrics_appointment,28,flu season,Kolkata Medical Hub
+2023-09-10,Pediatrics_surgery,24,school health check,Kolkata Medical Hub
+2023-09-10,Emergency_appointment,23,accident,Mumbai Trauma Center
+2023-09-10,Emergency_surgery,30,accident,Delhi General Hospital
+2023-09-10,Dermatology_appointment,18,skin camp,Chennai City Clinic
+2023-09-10,Dermatology_surgery,27,allergy season,Mumbai Trauma Center
+2023-09-10,ICU_appointment,17,flu season,Bangalore Health Center
+2023-09-10,ICU_surgery,24,respiratory issues,Chennai City Clinic
+2023-09-17,Ortho_appointment,8,camp,Chennai City Clinic
+2023-09-17,Ortho_surgery,19,camp,Kolkata Medical Hub
+2023-09-17,Pediatrics_appointment,15,routine,Mumbai Trauma Center
+2023-09-17,Pediatrics_surgery,18,camp,Kolkata Medical Hub
+2023-09-17,Emergency_appointment,19,fire outbreak,Chennai City Clinic
+2023-09-17,Emergency_surgery,24,fire outbreak,Delhi General Hospital
+2023-09-17,Dermatology_appointment,14,skin camp,Chennai City Clinic
+2023-09-17,Dermatology_surgery,10,skin camp,Kolkata Medical Hub
+2023-09-17,ICU_appointment,10,respiratory issues,Chennai City Clinic
+2023-09-17,ICU_surgery,19,heat wave,Delhi General Hospital
+2023-09-24,Ortho_appointment,27,routine checkup,Delhi General Hospital
+2023-09-24,Ortho_surgery,8,camp,Kolkata Medical Hub
+2023-09-24,Pediatrics_appointment,7,flu season,Bangalore Health Center
+2023-09-24,Pediatrics_surgery,13,school health check,Bangalore Health Center
+2023-09-24,Emergency_appointment,18,pandemic wave,Mumbai Trauma Center
+2023-09-24,Emergency_surgery,14,fire outbreak,Mumbai Trauma Center
+2023-09-24,Dermatology_appointment,19,skin camp,Chennai City Clinic
+2023-09-24,Dermatology_surgery,24,skin camp,Bangalore Health Center
+2023-09-24,ICU_appointment,14,respiratory issues,Delhi General Hospital
+2023-09-24,ICU_surgery,23,heat wave,Delhi General Hospital
+2023-10-01,Ortho_appointment,24,knee surgery season,Chennai City Clinic
+2023-10-01,Ortho_surgery,26,knee surgery season,Bangalore Health Center
+2023-10-01,Pediatrics_appointment,19,routine,Kolkata Medical Hub
+2023-10-01,Pediatrics_surgery,21,routine,Delhi General Hospital
+2023-10-01,Emergency_appointment,7,unknown,Mumbai Trauma Center
+2023-10-01,Emergency_surgery,26,fire outbreak,Chennai City Clinic
+2023-10-01,Dermatology_appointment,2,skin camp,Kolkata Medical Hub
+2023-10-01,Dermatology_surgery,18,allergy season,Delhi General Hospital
+2023-10-01,ICU_appointment,14,respiratory issues,Mumbai Trauma Center
+2023-10-01,ICU_surgery,25,heat wave,Chennai City Clinic
+2023-10-08,Ortho_appointment,10,knee surgery season,Delhi General Hospital
+2023-10-08,Ortho_surgery,23,routine checkup,Chennai City Clinic
+2023-10-08,Pediatrics_appointment,5,routine,Mumbai Trauma Center
+2023-10-08,Pediatrics_surgery,16,school health check,Chennai City Clinic
+2023-10-08,Emergency_appointment,10,unknown,Delhi General Hospital
+2023-10-08,Emergency_surgery,28,pandemic wave,Mumbai Trauma Center
+2023-10-08,Dermatology_appointment,13,routine,Bangalore Health Center
+2023-10-08,Dermatology_surgery,18,skin camp,Delhi General Hospital
+2023-10-08,ICU_appointment,4,winter spike,Bangalore Health Center
+2023-10-08,ICU_surgery,12,flu season,Delhi General Hospital
+2023-10-15,Ortho_appointment,14,sports injury,Kolkata Medical Hub
+2023-10-15,Ortho_surgery,23,sports injury,Delhi General Hospital
+2023-10-15,Pediatrics_appointment,16,school health check,Bangalore Health Center
+2023-10-15,Pediatrics_surgery,28,flu season,Mumbai Trauma Center
+2023-10-15,Emergency_appointment,13,accident,Delhi General Hospital
+2023-10-15,Emergency_surgery,16,unknown,Bangalore Health Center
+2023-10-15,Dermatology_appointment,9,routine,Mumbai Trauma Center
+2023-10-15,Dermatology_surgery,19,rash outbreak,Kolkata Medical Hub
+2023-10-15,ICU_appointment,19,heat wave,Kolkata Medical Hub
+2023-10-15,ICU_surgery,8,flu season,Delhi General Hospital
+2023-10-22,Ortho_appointment,5,knee surgery season,Bangalore Health Center
+2023-10-22,Ortho_surgery,14,sports injury,Delhi General Hospital
+2023-10-22,Pediatrics_appointment,10,flu season,Chennai City Clinic
+2023-10-22,Pediatrics_surgery,19,routine,Kolkata Medical Hub
+2023-10-22,Emergency_appointment,12,pandemic wave,Chennai City Clinic
+2023-10-22,Emergency_surgery,28,fire outbreak,Delhi General Hospital
+2023-10-22,Dermatology_appointment,11,skin camp,Delhi General Hospital
+2023-10-22,Dermatology_surgery,14,routine,Chennai City Clinic
+2023-10-22,ICU_appointment,14,winter spike,Kolkata Medical Hub
+2023-10-22,ICU_surgery,22,heat wave,Delhi General Hospital
+2023-10-29,Ortho_appointment,9,routine checkup,Delhi General Hospital
+2023-10-29,Ortho_surgery,7,sports injury,Bangalore Health Center
+2023-10-29,Pediatrics_appointment,18,routine,Mumbai Trauma Center
+2023-10-29,Pediatrics_surgery,23,flu season,Chennai City Clinic
+2023-10-29,Emergency_appointment,19,pandemic wave,Kolkata Medical Hub
+2023-10-29,Emergency_surgery,30,accident,Mumbai Trauma Center
+2023-10-29,Dermatology_appointment,15,routine,Mumbai Trauma Center
+2023-10-29,Dermatology_surgery,16,rash outbreak,Delhi General Hospital
+2023-10-29,ICU_appointment,19,winter spike,Chennai City Clinic
+2023-10-29,ICU_surgery,7,flu season,Bangalore Health Center
+2023-11-05,Ortho_appointment,14,knee surgery season,Bangalore Health Center
+2023-11-05,Ortho_surgery,14,camp,Chennai City Clinic
+2023-11-05,Pediatrics_appointment,21,flu season,Bangalore Health Center
+2023-11-05,Pediatrics_surgery,23,routine,Kolkata Medical Hub
+2023-11-05,Emergency_appointment,15,unknown,Delhi General Hospital
+2023-11-05,Emergency_surgery,22,fire outbreak,Delhi General Hospital
+2023-11-05,Dermatology_appointment,23,allergy season,Chennai City Clinic
+2023-11-05,Dermatology_surgery,13,skin camp,Bangalore Health Center
+2023-11-05,ICU_appointment,10,heat wave,Delhi General Hospital
+2023-11-05,ICU_surgery,9,winter spike,Bangalore Health Center
+2023-11-12,Ortho_appointment,13,sports injury,Bangalore Health Center
+2023-11-12,Ortho_surgery,24,routine checkup,Kolkata Medical Hub
+2023-11-12,Pediatrics_appointment,17,routine,Bangalore Health Center
+2023-11-12,Pediatrics_surgery,31,flu season,Delhi General Hospital
+2023-11-12,Emergency_appointment,23,fire outbreak,Mumbai Trauma Center
+2023-11-12,Emergency_surgery,15,fire outbreak,Delhi General Hospital
+2023-11-12,Dermatology_appointment,22,rash outbreak,Chennai City Clinic
+2023-11-12,Dermatology_surgery,11,skin camp,Kolkata Medical Hub
+2023-11-12,ICU_appointment,13,heat wave,Kolkata Medical Hub
+2023-11-12,ICU_surgery,16,flu season,Bangalore Health Center
+2023-11-19,Ortho_appointment,15,sports injury,Delhi General Hospital
+2023-11-19,Ortho_surgery,13,sports injury,Kolkata Medical Hub
+2023-11-19,Pediatrics_appointment,7,routine,Chennai City Clinic
+2023-11-19,Pediatrics_surgery,16,camp,Kolkata Medical Hub
+2023-11-19,Emergency_appointment,12,fire outbreak,Chennai City Clinic
+2023-11-19,Emergency_surgery,27,pandemic wave,Kolkata Medical Hub
+2023-11-19,Dermatology_appointment,24,skin camp,Mumbai Trauma Center
+2023-11-19,Dermatology_surgery,14,rash outbreak,Kolkata Medical Hub
+2023-11-19,ICU_appointment,29,respiratory issues,Mumbai Trauma Center
+2023-11-19,ICU_surgery,18,heat wave,Delhi General Hospital
+2023-11-26,Ortho_appointment,22,camp,Bangalore Health Center
+2023-11-26,Ortho_surgery,18,sports injury,Chennai City Clinic
+2023-11-26,Pediatrics_appointment,30,flu season,Delhi General Hospital
+2023-11-26,Pediatrics_surgery,12,camp,Chennai City Clinic
+2023-11-26,Emergency_appointment,26,accident,Mumbai Trauma Center
+2023-11-26,Emergency_surgery,20,fire outbreak,Bangalore Health Center
+2023-11-26,Dermatology_appointment,16,routine,Delhi General Hospital
+2023-11-26,Dermatology_surgery,23,rash outbreak,Delhi General Hospital
+2023-11-26,ICU_appointment,8,respiratory issues,Kolkata Medical Hub
+2023-11-26,ICU_surgery,27,respiratory issues,Kolkata Medical Hub
+2023-12-03,Ortho_appointment,12,knee surgery season,Kolkata Medical Hub
+2023-12-03,Ortho_surgery,21,camp,Chennai City Clinic
+2023-12-03,Pediatrics_appointment,11,camp,Kolkata Medical Hub
+2023-12-03,Pediatrics_surgery,27,camp,Chennai City Clinic
+2023-12-03,Emergency_appointment,26,accident,Delhi General Hospital
+2023-12-03,Emergency_surgery,24,unknown,Mumbai Trauma Center
+2023-12-03,Dermatology_appointment,16,allergy season,Bangalore Health Center
+2023-12-03,Dermatology_surgery,12,skin camp,Mumbai Trauma Center
+2023-12-03,ICU_appointment,6,flu season,Delhi General Hospital
+2023-12-03,ICU_surgery,28,winter spike,Bangalore Health Center
+2023-12-10,Ortho_appointment,30,routine checkup,Delhi General Hospital
+2023-12-10,Ortho_surgery,18,camp,Chennai City Clinic
+2023-12-10,Pediatrics_appointment,29,camp,Chennai City Clinic
+2023-12-10,Pediatrics_surgery,14,camp,Kolkata Medical Hub
+2023-12-10,Emergency_appointment,10,unknown,Chennai City Clinic
+2023-12-10,Emergency_surgery,28,unknown,Delhi General Hospital
+2023-12-10,Dermatology_appointment,19,rash outbreak,Mumbai Trauma Center
+2023-12-10,Dermatology_surgery,24,allergy season,Delhi General Hospital
+2023-12-10,ICU_appointment,27,respiratory issues,Mumbai Trauma Center
+2023-12-10,ICU_surgery,17,respiratory issues,Bangalore Health Center
+2023-12-17,Ortho_appointment,25,sports injury,Bangalore Health Center
+2023-12-17,Ortho_surgery,13,camp,Chennai City Clinic
+2023-12-17,Pediatrics_appointment,28,routine,Delhi General Hospital
+2023-12-17,Pediatrics_surgery,21,school health check,Delhi General Hospital
+2023-12-17,Emergency_appointment,26,fire outbreak,Chennai City Clinic
+2023-12-17,Emergency_surgery,11,unknown,Chennai City Clinic
+2023-12-17,Dermatology_appointment,7,routine,Mumbai Trauma Center
+2023-12-17,Dermatology_surgery,28,allergy season,Bangalore Health Center
+2023-12-17,ICU_appointment,22,respiratory issues,Chennai City Clinic
+2023-12-17,ICU_surgery,29,flu season,Delhi General Hospital
+2023-12-24,Ortho_appointment,15,knee surgery season,Kolkata Medical Hub
+2023-12-24,Ortho_surgery,17,sports injury,Chennai City Clinic
+2023-12-24,Pediatrics_appointment,17,flu season,Chennai City Clinic
+2023-12-24,Pediatrics_surgery,27,routine,Chennai City Clinic
+2023-12-24,Emergency_appointment,28,unknown,Mumbai Trauma Center
+2023-12-24,Emergency_surgery,16,unknown,Bangalore Health Center
+2023-12-24,Dermatology_appointment,29,skin camp,Delhi General Hospital
+2023-12-24,Dermatology_surgery,28,allergy season,Chennai City Clinic
+2023-12-24,ICU_appointment,13,flu season,Mumbai Trauma Center
+2023-12-24,ICU_surgery,19,respiratory issues,Chennai City Clinic
+2023-12-31,Ortho_appointment,25,routine checkup,Kolkata Medical Hub
+2023-12-31,Ortho_surgery,23,camp,Bangalore Health Center
+2023-12-31,Pediatrics_appointment,22,school health check,Chennai City Clinic
+2023-12-31,Pediatrics_surgery,25,flu season,Chennai City Clinic
+2023-12-31,Emergency_appointment,12,unknown,Kolkata Medical Hub
+2023-12-31,Emergency_surgery,14,pandemic wave,Chennai City Clinic
+2023-12-31,Dermatology_appointment,18,allergy season,Mumbai Trauma Center
+2023-12-31,Dermatology_surgery,16,routine,Kolkata Medical Hub
+2023-12-31,ICU_appointment,27,heat wave,Kolkata Medical Hub
+2023-12-31,ICU_surgery,25,flu season,Delhi General Hospital
+2024-01-07,Ortho_appointment,11,routine checkup,Kolkata Medical Hub
+2024-01-07,Ortho_surgery,16,sports injury,Bangalore Health Center
+2024-01-07,Pediatrics_appointment,16,camp,Chennai City Clinic
+2024-01-07,Pediatrics_surgery,8,flu season,Delhi General Hospital
+2024-01-07,Emergency_appointment,10,accident,Chennai City Clinic
+2024-01-07,Emergency_surgery,9,pandemic wave,Bangalore Health Center
+2024-01-07,Dermatology_appointment,25,skin camp,Chennai City Clinic
+2024-01-07,Dermatology_surgery,15,rash outbreak,Bangalore Health Center
+2024-01-07,ICU_appointment,12,winter spike,Bangalore Health Center
+2024-01-07,ICU_surgery,20,respiratory issues,Kolkata Medical Hub
+2024-01-14,Ortho_appointment,20,knee surgery season,Bangalore Health Center
+2024-01-14,Ortho_surgery,20,sports injury,Chennai City Clinic
+2024-01-14,Pediatrics_appointment,30,flu season,Delhi General Hospital
+2024-01-14,Pediatrics_surgery,30,flu season,Chennai City Clinic
+2024-01-14,Emergency_appointment,23,accident,Kolkata Medical Hub
+2024-01-14,Emergency_surgery,13,accident,Chennai City Clinic
+2024-01-14,Dermatology_appointment,30,skin camp,Bangalore Health Center
+2024-01-14,Dermatology_surgery,16,allergy season,Chennai City Clinic
+2024-01-14,ICU_appointment,12,heat wave,Delhi General Hospital
+2024-01-14,ICU_surgery,28,flu season,Bangalore Health Center
+2024-01-21,Ortho_appointment,28,knee surgery season,Delhi General Hospital
+2024-01-21,Ortho_surgery,28,sports injury,Chennai City Clinic
+2024-01-21,Pediatrics_appointment,15,camp,Bangalore Health Center
+2024-01-21,Pediatrics_surgery,20,school health check,Delhi General Hospital
+2024-01-21,Emergency_appointment,12,unknown,Chennai City Clinic
+2024-01-21,Emergency_surgery,26,pandemic wave,Delhi General Hospital
+2024-01-21,Dermatology_appointment,10,skin camp,Chennai City Clinic
+2024-01-21,Dermatology_surgery,25,routine,Delhi General Hospital
+2024-01-21,ICU_appointment,16,heat wave,Mumbai Trauma Center
+2024-01-21,ICU_surgery,30,flu season,Mumbai Trauma Center
+2024-01-28,Ortho_appointment,13,knee surgery season,Bangalore Health Center
+2024-01-28,Ortho_surgery,24,camp,Chennai City Clinic
+2024-01-28,Pediatrics_appointment,22,camp,Delhi General Hospital
+2024-01-28,Pediatrics_surgery,28,flu season,Kolkata Medical Hub
+2024-01-28,Emergency_appointment,17,fire outbreak,Mumbai Trauma Center
+2024-01-28,Emergency_surgery,20,accident,Mumbai Trauma Center
+2024-01-28,Dermatology_appointment,31,allergy season,Bangalore Health Center
+2024-01-28,Dermatology_surgery,23,routine,Bangalore Health Center
+2024-01-28,ICU_appointment,9,flu season,Chennai City Clinic
+2024-01-28,ICU_surgery,29,respiratory issues,Kolkata Medical Hub
+2024-02-04,Ortho_appointment,18,knee surgery season,Delhi General Hospital
+2024-02-04,Ortho_surgery,27,routine checkup,Bangalore Health Center
+2024-02-04,Pediatrics_appointment,17,school health check,Kolkata Medical Hub
+2024-02-04,Pediatrics_surgery,17,flu season,Mumbai Trauma Center
+2024-02-04,Emergency_appointment,20,fire outbreak,Bangalore Health Center
+2024-02-04,Emergency_surgery,30,unknown,Chennai City Clinic
+2024-02-04,Dermatology_appointment,17,rash outbreak,Mumbai Trauma Center
+2024-02-04,Dermatology_surgery,10,skin camp,Kolkata Medical Hub
+2024-02-04,ICU_appointment,26,heat wave,Chennai City Clinic
+2024-02-04,ICU_surgery,14,flu season,Mumbai Trauma Center
+2024-02-11,Ortho_appointment,28,sports injury,Bangalore Health Center
+2024-02-11,Ortho_surgery,13,knee surgery season,Bangalore Health Center
+2024-02-11,Pediatrics_appointment,21,flu season,Mumbai Trauma Center
+2024-02-11,Pediatrics_surgery,22,school health check,Bangalore Health Center
+2024-02-11,Emergency_appointment,29,fire outbreak,Chennai City Clinic
+2024-02-11,Emergency_surgery,25,fire outbreak,Delhi General Hospital
+2024-02-11,Dermatology_appointment,19,routine,Kolkata Medical Hub
+2024-02-11,Dermatology_surgery,11,skin camp,Bangalore Health Center
+2024-02-11,ICU_appointment,28,flu season,Chennai City Clinic
+2024-02-11,ICU_surgery,16,heat wave,Delhi General Hospital
+2024-02-18,Ortho_appointment,29,routine checkup,Kolkata Medical Hub
+2024-02-18,Ortho_surgery,17,knee surgery season,Kolkata Medical Hub
+2024-02-18,Pediatrics_appointment,24,routine,Bangalore Health Center
+2024-02-18,Pediatrics_surgery,12,routine,Mumbai Trauma Center
+2024-02-18,Emergency_appointment,17,fire outbreak,Chennai City Clinic
+2024-02-18,Emergency_surgery,24,fire outbreak,Bangalore Health Center
+2024-02-18,Dermatology_appointment,28,skin camp,Kolkata Medical Hub
+2024-02-18,Dermatology_surgery,25,rash outbreak,Chennai City Clinic
+2024-02-18,ICU_appointment,13,respiratory issues,Chennai City Clinic
+2024-02-18,ICU_surgery,25,winter spike,Chennai City Clinic
+2024-02-25,Ortho_appointment,18,camp,Kolkata Medical Hub
+2024-02-25,Ortho_surgery,20,routine checkup,Mumbai Trauma Center
+2024-02-25,Pediatrics_appointment,26,flu season,Bangalore Health Center
+2024-02-25,Pediatrics_surgery,16,flu season,Kolkata Medical Hub
+2024-02-25,Emergency_appointment,21,pandemic wave,Chennai City Clinic
+2024-02-25,Emergency_surgery,32,accident,Chennai City Clinic
+2024-02-25,Dermatology_appointment,16,rash outbreak,Chennai City Clinic
+2024-02-25,Dermatology_surgery,28,skin camp,Kolkata Medical Hub
+2024-02-25,ICU_appointment,26,heat wave,Mumbai Trauma Center
+2024-02-25,ICU_surgery,24,respiratory issues,Bangalore Health Center
+2024-03-03,Ortho_appointment,29,camp,Bangalore Health Center
+2024-03-03,Ortho_surgery,17,camp,Bangalore Health Center
+2024-03-03,Pediatrics_appointment,31,flu season,Chennai City Clinic
+2024-03-03,Pediatrics_surgery,24,school health check,Delhi General Hospital
+2024-03-03,Emergency_appointment,27,accident,Delhi General Hospital
+2024-03-03,Emergency_surgery,21,pandemic wave,Mumbai Trauma Center
+2024-03-03,Dermatology_appointment,19,skin camp,Chennai City Clinic
+2024-03-03,Dermatology_surgery,27,rash outbreak,Kolkata Medical Hub
+2024-03-03,ICU_appointment,27,respiratory issues,Chennai City Clinic
+2024-03-03,ICU_surgery,14,winter spike,Bangalore Health Center
+2024-03-10,Ortho_appointment,14,knee surgery season,Delhi General Hospital
+2024-03-10,Ortho_surgery,17,routine checkup,Kolkata Medical Hub
+2024-03-10,Pediatrics_appointment,37,routine,Bangalore Health Center
+2024-03-10,Pediatrics_surgery,32,school health check,Mumbai Trauma Center
+2024-03-10,Emergency_appointment,14,accident,Delhi General Hospital
+2024-03-10,Emergency_surgery,14,accident,Mumbai Trauma Center
+2024-03-10,Dermatology_appointment,25,skin camp,Mumbai Trauma Center
+2024-03-10,Dermatology_surgery,12,allergy season,Delhi General Hospital
+2024-03-10,ICU_appointment,27,respiratory issues,Bangalore Health Center
+2024-03-10,ICU_surgery,18,flu season,Chennai City Clinic
+2024-03-17,Ortho_appointment,15,routine checkup,Kolkata Medical Hub
+2024-03-17,Ortho_surgery,16,sports injury,Chennai City Clinic
+2024-03-17,Pediatrics_appointment,21,flu season,Kolkata Medical Hub
+2024-03-17,Pediatrics_surgery,11,flu season,Kolkata Medical Hub
+2024-03-17,Emergency_appointment,12,unknown,Mumbai Trauma Center
+2024-03-17,Emergency_surgery,21,fire outbreak,Delhi General Hospital
+2024-03-17,Dermatology_appointment,11,routine,Mumbai Trauma Center
+2024-03-17,Dermatology_surgery,16,allergy season,Bangalore Health Center
+2024-03-17,ICU_appointment,23,winter spike,Mumbai Trauma Center
+2024-03-17,ICU_surgery,27,flu season,Kolkata Medical Hub
+2024-03-24,Ortho_appointment,17,knee surgery season,Mumbai Trauma Center
+2024-03-24,Ortho_surgery,28,routine checkup,Mumbai Trauma Center
+2024-03-24,Pediatrics_appointment,19,school health check,Bangalore Health Center
+2024-03-24,Pediatrics_surgery,9,routine,Delhi General Hospital
+2024-03-24,Emergency_appointment,27,unknown,Chennai City Clinic
+2024-03-24,Emergency_surgery,10,accident,Chennai City Clinic
+2024-03-24,Dermatology_appointment,22,skin camp,Delhi General Hospital
+2024-03-24,Dermatology_surgery,10,allergy season,Kolkata Medical Hub
+2024-03-24,ICU_appointment,27,respiratory issues,Mumbai Trauma Center
+2024-03-24,ICU_surgery,16,respiratory issues,Mumbai Trauma Center
+2024-03-31,Ortho_appointment,30,knee surgery season,Bangalore Health Center
+2024-03-31,Ortho_surgery,13,camp,Delhi General Hospital
+2024-03-31,Pediatrics_appointment,25,routine,Bangalore Health Center
+2024-03-31,Pediatrics_surgery,20,routine,Delhi General Hospital
+2024-03-31,Emergency_appointment,32,pandemic wave,Mumbai Trauma Center
+2024-03-31,Emergency_surgery,26,unknown,Mumbai Trauma Center
+2024-03-31,Dermatology_appointment,20,routine,Delhi General Hospital
+2024-03-31,Dermatology_surgery,29,routine,Chennai City Clinic
+2024-03-31,ICU_appointment,17,heat wave,Kolkata Medical Hub
+2024-03-31,ICU_surgery,20,respiratory issues,Chennai City Clinic
+2024-04-07,Ortho_appointment,17,routine checkup,Delhi General Hospital
+2024-04-07,Ortho_surgery,28,camp,Kolkata Medical Hub
+2024-04-07,Pediatrics_appointment,19,camp,Kolkata Medical Hub
+2024-04-07,Pediatrics_surgery,30,camp,Chennai City Clinic
+2024-04-07,Emergency_appointment,29,accident,Chennai City Clinic
+2024-04-07,Emergency_surgery,14,accident,Mumbai Trauma Center
+2024-04-07,Dermatology_appointment,23,rash outbreak,Bangalore Health Center
+2024-04-07,Dermatology_surgery,20,routine,Kolkata Medical Hub
+2024-04-07,ICU_appointment,32,respiratory issues,Kolkata Medical Hub
+2024-04-07,ICU_surgery,11,respiratory issues,Kolkata Medical Hub
+2024-04-14,Ortho_appointment,25,sports injury,Bangalore Health Center
+2024-04-14,Ortho_surgery,15,knee surgery season,Mumbai Trauma Center
+2024-04-14,Pediatrics_appointment,34,camp,Chennai City Clinic
+2024-04-14,Pediatrics_surgery,20,routine,Mumbai Trauma Center
+2024-04-14,Emergency_appointment,100,fire outbreak,Kolkata Medical Hub
+2024-04-14,Emergency_surgery,100,fire outbreak,Bangalore Health Center
+2024-04-14,Dermatology_appointment,19,routine,Chennai City Clinic
+2024-04-14,Dermatology_surgery,16,skin camp,Delhi General Hospital
+2024-04-14,ICU_appointment,14,flu season,Bangalore Health Center
+2024-04-14,ICU_surgery,15,winter spike,Mumbai Trauma Center
+2024-04-21,Ortho_appointment,16,knee surgery season,Kolkata Medical Hub
+2024-04-21,Ortho_surgery,26,sports injury,Bangalore Health Center
+2024-04-21,Pediatrics_appointment,33,camp,Bangalore Health Center
+2024-04-21,Pediatrics_surgery,21,flu season,Chennai City Clinic
+2024-04-21,Emergency_appointment,15,unknown,Chennai City Clinic
+2024-04-21,Emergency_surgery,23,accident,Delhi General Hospital
+2024-04-21,Dermatology_appointment,32,skin camp,Chennai City Clinic
+2024-04-21,Dermatology_surgery,21,skin camp,Bangalore Health Center
+2024-04-21,ICU_appointment,23,heat wave,Kolkata Medical Hub
+2024-04-21,ICU_surgery,23,flu season,Chennai City Clinic
+2024-04-28,Ortho_appointment,28,routine checkup,Bangalore Health Center
+2024-04-28,Ortho_surgery,24,routine checkup,Delhi General Hospital
+2024-04-28,Pediatrics_appointment,20,flu season,Bangalore Health Center
+2024-04-28,Pediatrics_surgery,11,camp,Kolkata Medical Hub
+2024-04-28,Emergency_appointment,34,pandemic wave,Chennai City Clinic
+2024-04-28,Emergency_surgery,12,accident,Bangalore Health Center
+2024-04-28,Dermatology_appointment,15,routine,Delhi General Hospital
+2024-04-28,Dermatology_surgery,21,rash outbreak,Delhi General Hospital
+2024-04-28,ICU_appointment,17,heat wave,Mumbai Trauma Center
+2024-04-28,ICU_surgery,23,heat wave,Bangalore Health Center
+2024-05-05,Ortho_appointment,16,camp,Mumbai Trauma Center
+2024-05-05,Ortho_surgery,32,camp,Kolkata Medical Hub
+2024-05-05,Pediatrics_appointment,30,routine,Kolkata Medical Hub
+2024-05-05,Pediatrics_surgery,33,routine,Mumbai Trauma Center
+2024-05-05,Emergency_appointment,20,pandemic wave,Delhi General Hospital
+2024-05-05,Emergency_surgery,21,fire outbreak,Bangalore Health Center
+2024-05-05,Dermatology_appointment,18,routine,Mumbai Trauma Center
+2024-05-05,Dermatology_surgery,23,skin camp,Bangalore Health Center
+2024-05-05,ICU_appointment,16,flu season,Chennai City Clinic
+2024-05-05,ICU_surgery,22,heat wave,Mumbai Trauma Center
+2024-05-12,Ortho_appointment,31,routine checkup,Delhi General Hospital
+2024-05-12,Ortho_surgery,29,sports injury,Delhi General Hospital
+2024-05-12,Pediatrics_appointment,12,school health check,Kolkata Medical Hub
+2024-05-12,Pediatrics_surgery,26,flu season,Kolkata Medical Hub
+2024-05-12,Emergency_appointment,24,unknown,Chennai City Clinic
+2024-05-12,Emergency_surgery,10,accident,Chennai City Clinic
+2024-05-12,Dermatology_appointment,20,skin camp,Kolkata Medical Hub
+2024-05-12,Dermatology_surgery,19,skin camp,Delhi General Hospital
+2024-05-12,ICU_appointment,28,flu season,Bangalore Health Center
+2024-05-12,ICU_surgery,18,winter spike,Kolkata Medical Hub
+2024-05-19,Ortho_appointment,30,knee surgery season,Kolkata Medical Hub
+2024-05-19,Ortho_surgery,24,camp,Mumbai Trauma Center
+2024-05-19,Pediatrics_appointment,16,routine,Delhi General Hospital
+2024-05-19,Pediatrics_surgery,21,school health check,Mumbai Trauma Center
+2024-05-19,Emergency_appointment,17,accident,Kolkata Medical Hub
+2024-05-19,Emergency_surgery,14,unknown,Kolkata Medical Hub
+2024-05-19,Dermatology_appointment,22,allergy season,Kolkata Medical Hub
+2024-05-19,Dermatology_surgery,19,routine,Mumbai Trauma Center
+2024-05-19,ICU_appointment,34,winter spike,Chennai City Clinic
+2024-05-19,ICU_surgery,15,winter spike,Chennai City Clinic
+2024-05-26,Ortho_appointment,34,camp,Delhi General Hospital
+2024-05-26,Ortho_surgery,23,routine checkup,Chennai City Clinic
+2024-05-26,Pediatrics_appointment,32,school health check,Kolkata Medical Hub
+2024-05-26,Pediatrics_surgery,31,camp,Mumbai Trauma Center
+2024-05-26,Emergency_appointment,15,fire outbreak,Mumbai Trauma Center
+2024-05-26,Emergency_surgery,11,fire outbreak,Delhi General Hospital
+2024-05-26,Dermatology_appointment,11,routine,Chennai City Clinic
+2024-05-26,Dermatology_surgery,11,rash outbreak,Mumbai Trauma Center
+2024-05-26,ICU_appointment,11,winter spike,Bangalore Health Center
+2024-05-26,ICU_surgery,19,heat wave,Chennai City Clinic
+2024-06-02,Ortho_appointment,34,routine checkup,Bangalore Health Center
+2024-06-02,Ortho_surgery,25,routine checkup,Chennai City Clinic
+2024-06-02,Pediatrics_appointment,31,flu season,Chennai City Clinic
+2024-06-02,Pediatrics_surgery,20,camp,Chennai City Clinic
+2024-06-02,Emergency_appointment,23,fire outbreak,Bangalore Health Center
+2024-06-02,Emergency_surgery,12,accident,Delhi General Hospital
+2024-06-02,Dermatology_appointment,29,skin camp,Kolkata Medical Hub
+2024-06-02,Dermatology_surgery,17,allergy season,Kolkata Medical Hub
+2024-06-02,ICU_appointment,34,flu season,Mumbai Trauma Center
+2024-06-02,ICU_surgery,13,heat wave,Delhi General Hospital
+2024-06-09,Ortho_appointment,27,knee surgery season,Chennai City Clinic
+2024-06-09,Ortho_surgery,19,camp,Mumbai Trauma Center
+2024-06-09,Pediatrics_appointment,30,school health check,Bangalore Health Center
+2024-06-09,Pediatrics_surgery,17,flu season,Delhi General Hospital
+2024-06-09,Emergency_appointment,10,accident,Kolkata Medical Hub
+2024-06-09,Emergency_surgery,17,fire outbreak,Bangalore Health Center
+2024-06-09,Dermatology_appointment,12,skin camp,Kolkata Medical Hub
+2024-06-09,Dermatology_surgery,31,skin camp,Bangalore Health Center
+2024-06-09,ICU_appointment,18,flu season,Mumbai Trauma Center
+2024-06-09,ICU_surgery,30,respiratory issues,Mumbai Trauma Center
+2024-06-16,Ortho_appointment,27,routine checkup,Delhi General Hospital
+2024-06-16,Ortho_surgery,16,sports injury,Delhi General Hospital
+2024-06-16,Pediatrics_appointment,24,school health check,Kolkata Medical Hub
+2024-06-16,Pediatrics_surgery,10,flu season,Delhi General Hospital
+2024-06-16,Emergency_appointment,8,pandemic wave,Bangalore Health Center
+2024-06-16,Emergency_surgery,23,unknown,Mumbai Trauma Center
+2024-06-16,Dermatology_appointment,11,allergy season,Bangalore Health Center
+2024-06-16,Dermatology_surgery,20,allergy season,Bangalore Health Center
+2024-06-16,ICU_appointment,27,respiratory issues,Bangalore Health Center
+2024-06-16,ICU_surgery,19,winter spike,Delhi General Hospital
+2024-06-23,Ortho_appointment,18,routine checkup,Mumbai Trauma Center
+2024-06-23,Ortho_surgery,22,routine checkup,Kolkata Medical Hub
+2024-06-23,Pediatrics_appointment,26,school health check,Mumbai Trauma Center
+2024-06-23,Pediatrics_surgery,25,school health check,Mumbai Trauma Center
+2024-06-23,Emergency_appointment,21,pandemic wave,Chennai City Clinic
+2024-06-23,Emergency_surgery,33,pandemic wave,Delhi General Hospital
+2024-06-23,Dermatology_appointment,26,rash outbreak,Kolkata Medical Hub
+2024-06-23,Dermatology_surgery,21,routine,Kolkata Medical Hub
+2024-06-23,ICU_appointment,16,heat wave,Chennai City Clinic
+2024-06-23,ICU_surgery,9,heat wave,Chennai City Clinic
+2024-06-30,Ortho_appointment,12,camp,Kolkata Medical Hub
+2024-06-30,Ortho_surgery,16,routine checkup,Mumbai Trauma Center
+2024-06-30,Pediatrics_appointment,24,school health check,Kolkata Medical Hub
+2024-06-30,Pediatrics_surgery,12,school health check,Mumbai Trauma Center
+2024-06-30,Emergency_appointment,14,fire outbreak,Chennai City Clinic
+2024-06-30,Emergency_surgery,16,unknown,Delhi General Hospital
+2024-06-30,Dermatology_appointment,13,allergy season,Delhi General Hospital
+2024-06-30,Dermatology_surgery,27,rash outbreak,Mumbai Trauma Center
+2024-06-30,ICU_appointment,25,respiratory issues,Chennai City Clinic
+2024-06-30,ICU_surgery,14,respiratory issues,Delhi General Hospital
+2024-07-07,Ortho_appointment,10,knee surgery season,Bangalore Health Center
+2024-07-07,Ortho_surgery,24,camp,Mumbai Trauma Center
+2024-07-07,Pediatrics_appointment,32,routine,Kolkata Medical Hub
+2024-07-07,Pediatrics_surgery,21,routine,Chennai City Clinic
+2024-07-07,Emergency_appointment,22,unknown,Mumbai Trauma Center
+2024-07-07,Emergency_surgery,17,fire outbreak,Kolkata Medical Hub
+2024-07-07,Dermatology_appointment,16,routine,Bangalore Health Center
+2024-07-07,Dermatology_surgery,9,allergy season,Mumbai Trauma Center
+2024-07-07,ICU_appointment,13,flu season,Kolkata Medical Hub
+2024-07-07,ICU_surgery,7,heat wave,Mumbai Trauma Center
+2024-07-14,Ortho_appointment,15,sports injury,Chennai City Clinic
+2024-07-14,Ortho_surgery,13,camp,Bangalore Health Center
+2024-07-14,Pediatrics_appointment,7,camp,Mumbai Trauma Center
+2024-07-14,Pediatrics_surgery,31,camp,Kolkata Medical Hub
+2024-07-14,Emergency_appointment,17,unknown,Chennai City Clinic
+2024-07-14,Emergency_surgery,20,pandemic wave,Chennai City Clinic
+2024-07-14,Dermatology_appointment,18,allergy season,Chennai City Clinic
+2024-07-14,Dermatology_surgery,10,allergy season,Delhi General Hospital
+2024-07-14,ICU_appointment,9,heat wave,Bangalore Health Center
+2024-07-14,ICU_surgery,17,winter spike,Chennai City Clinic
+2024-07-21,Ortho_appointment,26,sports injury,Bangalore Health Center
+2024-07-21,Ortho_surgery,19,camp,Delhi General Hospital
+2024-07-21,Pediatrics_appointment,21,flu season,Chennai City Clinic
+2024-07-21,Pediatrics_surgery,20,camp,Mumbai Trauma Center
+2024-07-21,Emergency_appointment,30,accident,Bangalore Health Center
+2024-07-21,Emergency_surgery,26,pandemic wave,Mumbai Trauma Center
+2024-07-21,Dermatology_appointment,6,rash outbreak,Chennai City Clinic
+2024-07-21,Dermatology_surgery,20,skin camp,Delhi General Hospital
+2024-07-21,ICU_appointment,13,flu season,Bangalore Health Center
+2024-07-21,ICU_surgery,28,heat wave,Delhi General Hospital
+2024-07-28,Ortho_appointment,25,sports injury,Chennai City Clinic
+2024-07-28,Ortho_surgery,7,sports injury,Bangalore Health Center
+2024-07-28,Pediatrics_appointment,27,camp,Chennai City Clinic
+2024-07-28,Pediatrics_surgery,22,flu season,Mumbai Trauma Center
+2024-07-28,Emergency_appointment,26,accident,Bangalore Health Center
+2024-07-28,Emergency_surgery,13,pandemic wave,Bangalore Health Center
+2024-07-28,Dermatology_appointment,17,rash outbreak,Bangalore Health Center
+2024-07-28,Dermatology_surgery,26,skin camp,Mumbai Trauma Center
+2024-07-28,ICU_appointment,9,respiratory issues,Chennai City Clinic
+2024-07-28,ICU_surgery,26,respiratory issues,Kolkata Medical Hub
+2024-08-04,Ortho_appointment,19,knee surgery season,Delhi General Hospital
+2024-08-04,Ortho_surgery,21,sports injury,Kolkata Medical Hub
+2024-08-04,Pediatrics_appointment,14,camp,Chennai City Clinic
+2024-08-04,Pediatrics_surgery,15,camp,Chennai City Clinic
+2024-08-04,Emergency_appointment,14,fire outbreak,Mumbai Trauma Center
+2024-08-04,Emergency_surgery,28,pandemic wave,Delhi General Hospital
+2024-08-04,Dermatology_appointment,17,rash outbreak,Bangalore Health Center
+2024-08-04,Dermatology_surgery,13,skin camp,Bangalore Health Center
+2024-08-04,ICU_appointment,13,respiratory issues,Bangalore Health Center
+2024-08-04,ICU_surgery,29,heat wave,Mumbai Trauma Center
+2024-08-11,Ortho_appointment,19,camp,Delhi General Hospital
+2024-08-11,Ortho_surgery,11,routine checkup,Bangalore Health Center
+2024-08-11,Pediatrics_appointment,19,camp,Mumbai Trauma Center
+2024-08-11,Pediatrics_surgery,22,school health check,Delhi General Hospital
+2024-08-11,Emergency_appointment,10,accident,Delhi General Hospital
+2024-08-11,Emergency_surgery,27,pandemic wave,Mumbai Trauma Center
+2024-08-11,Dermatology_appointment,20,allergy season,Bangalore Health Center
+2024-08-11,Dermatology_surgery,18,rash outbreak,Chennai City Clinic
+2024-08-11,ICU_appointment,26,flu season,Delhi General Hospital
+2024-08-11,ICU_surgery,28,heat wave,Chennai City Clinic
+2024-08-18,Ortho_appointment,26,camp,Mumbai Trauma Center
+2024-08-18,Ortho_surgery,27,routine checkup,Chennai City Clinic
+2024-08-18,Pediatrics_appointment,29,camp,Delhi General Hospital
+2024-08-18,Pediatrics_surgery,13,camp,Mumbai Trauma Center
+2024-08-18,Emergency_appointment,23,accident,Mumbai Trauma Center
+2024-08-18,Emergency_surgery,25,fire outbreak,Chennai City Clinic
+2024-08-18,Dermatology_appointment,14,routine,Mumbai Trauma Center
+2024-08-18,Dermatology_surgery,20,rash outbreak,Mumbai Trauma Center
+2024-08-18,ICU_appointment,12,flu season,Kolkata Medical Hub
+2024-08-18,ICU_surgery,18,respiratory issues,Delhi General Hospital
+2024-08-25,Ortho_appointment,13,sports injury,Chennai City Clinic
+2024-08-25,Ortho_surgery,17,routine checkup,Delhi General Hospital
+2024-08-25,Pediatrics_appointment,10,camp,Bangalore Health Center
+2024-08-25,Pediatrics_surgery,14,camp,Kolkata Medical Hub
+2024-08-25,Emergency_appointment,10,fire outbreak,Mumbai Trauma Center
+2024-08-25,Emergency_surgery,19,unknown,Mumbai Trauma Center
+2024-08-25,Dermatology_appointment,12,routine,Bangalore Health Center
+2024-08-25,Dermatology_surgery,13,rash outbreak,Kolkata Medical Hub
+2024-08-25,ICU_appointment,13,heat wave,Chennai City Clinic
+2024-08-25,ICU_surgery,18,heat wave,Kolkata Medical Hub
+2024-09-01,Ortho_appointment,13,routine checkup,Delhi General Hospital
+2024-09-01,Ortho_surgery,28,routine checkup,Mumbai Trauma Center
+2024-09-01,Pediatrics_appointment,10,flu season,Mumbai Trauma Center
+2024-09-01,Pediatrics_surgery,32,camp,Chennai City Clinic
+2024-09-01,Emergency_appointment,23,accident,Kolkata Medical Hub
+2024-09-01,Emergency_surgery,21,accident,Bangalore Health Center
+2024-09-01,Dermatology_appointment,16,routine,Mumbai Trauma Center
+2024-09-01,Dermatology_surgery,16,allergy season,Mumbai Trauma Center
+2024-09-01,ICU_appointment,14,flu season,Chennai City Clinic
+2024-09-01,ICU_surgery,22,heat wave,Mumbai Trauma Center
+2024-09-08,Ortho_appointment,14,camp,Mumbai Trauma Center
+2024-09-08,Ortho_surgery,30,knee surgery season,Chennai City Clinic
+2024-09-08,Pediatrics_appointment,13,camp,Bangalore Health Center
+2024-09-08,Pediatrics_surgery,16,routine,Bangalore Health Center
+2024-09-08,Emergency_appointment,20,pandemic wave,Delhi General Hospital
+2024-09-08,Emergency_surgery,22,accident,Bangalore Health Center
+2024-09-08,Dermatology_appointment,21,allergy season,Mumbai Trauma Center
+2024-09-08,Dermatology_surgery,28,allergy season,Bangalore Health Center
+2024-09-08,ICU_appointment,26,flu season,Mumbai Trauma Center
+2024-09-08,ICU_surgery,28,heat wave,Kolkata Medical Hub
+2024-09-15,Ortho_appointment,4,routine checkup,Chennai City Clinic
+2024-09-15,Ortho_surgery,24,knee surgery season,Bangalore Health Center
+2024-09-15,Pediatrics_appointment,11,routine,Mumbai Trauma Center
+2024-09-15,Pediatrics_surgery,16,flu season,Delhi General Hospital
+2024-09-15,Emergency_appointment,24,unknown,Chennai City Clinic
+2024-09-15,Emergency_surgery,25,unknown,Chennai City Clinic
+2024-09-15,Dermatology_appointment,23,allergy season,Chennai City Clinic
+2024-09-15,Dermatology_surgery,20,routine,Mumbai Trauma Center
+2024-09-15,ICU_appointment,23,respiratory issues,Bangalore Health Center
+2024-09-15,ICU_surgery,10,respiratory issues,Kolkata Medical Hub
+2024-09-22,Ortho_appointment,14,camp,Mumbai Trauma Center
+2024-09-22,Ortho_surgery,30,routine checkup,Chennai City Clinic
+2024-09-22,Pediatrics_appointment,11,school health check,Chennai City Clinic
+2024-09-22,Pediatrics_surgery,25,school health check,Kolkata Medical Hub
+2024-09-22,Emergency_appointment,14,unknown,Chennai City Clinic
+2024-09-22,Emergency_surgery,17,fire outbreak,Bangalore Health Center
+2024-09-22,Dermatology_appointment,23,routine,Bangalore Health Center
+2024-09-22,Dermatology_surgery,13,allergy season,Delhi General Hospital
+2024-09-22,ICU_appointment,23,winter spike,Delhi General Hospital
+2024-09-22,ICU_surgery,11,heat wave,Chennai City Clinic
+2024-09-29,Ortho_appointment,9,camp,Bangalore Health Center
+2024-09-29,Ortho_surgery,14,camp,Chennai City Clinic
+2024-09-29,Pediatrics_appointment,13,school health check,Delhi General Hospital
+2024-09-29,Pediatrics_surgery,16,school health check,Delhi General Hospital
+2024-09-29,Emergency_appointment,26,unknown,Mumbai Trauma Center
+2024-09-29,Emergency_surgery,29,pandemic wave,Bangalore Health Center
+2024-09-29,Dermatology_appointment,7,allergy season,Mumbai Trauma Center
+2024-09-29,Dermatology_surgery,16,skin camp,Mumbai Trauma Center
+2024-09-29,ICU_appointment,25,heat wave,Kolkata Medical Hub
+2024-09-29,ICU_surgery,14,flu season,Chennai City Clinic
+2024-10-06,Ortho_appointment,9,camp,Bangalore Health Center
+2024-10-06,Ortho_surgery,9,camp,Bangalore Health Center
+2024-10-06,Pediatrics_appointment,12,routine,Mumbai Trauma Center
+2024-10-06,Pediatrics_surgery,13,flu season,Chennai City Clinic
+2024-10-06,Emergency_appointment,26,fire outbreak,Delhi General Hospital
+2024-10-06,Emergency_surgery,25,accident,Bangalore Health Center
+2024-10-06,Dermatology_appointment,19,routine,Kolkata Medical Hub
+2024-10-06,Dermatology_surgery,20,skin camp,Mumbai Trauma Center
+2024-10-06,ICU_appointment,9,winter spike,Chennai City Clinic
+2024-10-06,ICU_surgery,18,flu season,Chennai City Clinic
+2024-10-13,Ortho_appointment,8,sports injury,Bangalore Health Center
+2024-10-13,Ortho_surgery,27,camp,Kolkata Medical Hub
+2024-10-13,Pediatrics_appointment,24,routine,Mumbai Trauma Center
+2024-10-13,Pediatrics_surgery,14,school health check,Mumbai Trauma Center
+2024-10-13,Emergency_appointment,8,pandemic wave,Bangalore Health Center
+2024-10-13,Emergency_surgery,28,pandemic wave,Delhi General Hospital
+2024-10-13,Dermatology_appointment,17,rash outbreak,Delhi General Hospital
+2024-10-13,Dermatology_surgery,18,routine,Kolkata Medical Hub
+2024-10-13,ICU_appointment,19,flu season,Kolkata Medical Hub
+2024-10-13,ICU_surgery,12,flu season,Mumbai Trauma Center
+2024-10-20,Ortho_appointment,17,sports injury,Mumbai Trauma Center
+2024-10-20,Ortho_surgery,32,routine checkup,Delhi General Hospital
+2024-10-20,Pediatrics_appointment,11,flu season,Bangalore Health Center
+2024-10-20,Pediatrics_surgery,15,routine,Chennai City Clinic
+2024-10-20,Emergency_appointment,12,pandemic wave,Delhi General Hospital
+2024-10-20,Emergency_surgery,7,fire outbreak,Mumbai Trauma Center
+2024-10-20,Dermatology_appointment,13,routine,Delhi General Hospital
+2024-10-20,Dermatology_surgery,29,routine,Mumbai Trauma Center
+2024-10-20,ICU_appointment,13,flu season,Chennai City Clinic
+2024-10-20,ICU_surgery,22,flu season,Bangalore Health Center
+2024-10-27,Ortho_appointment,22,camp,Kolkata Medical Hub
+2024-10-27,Ortho_surgery,8,camp,Delhi General Hospital
+2024-10-27,Pediatrics_appointment,21,routine,Kolkata Medical Hub
+2024-10-27,Pediatrics_surgery,29,routine,Chennai City Clinic
+2024-10-27,Emergency_appointment,9,accident,Kolkata Medical Hub
+2024-10-27,Emergency_surgery,13,pandemic wave,Mumbai Trauma Center
+2024-10-27,Dermatology_appointment,11,routine,Delhi General Hospital
+2024-10-27,Dermatology_surgery,21,routine,Mumbai Trauma Center
+2024-10-27,ICU_appointment,9,heat wave,Mumbai Trauma Center
+2024-10-27,ICU_surgery,13,flu season,Mumbai Trauma Center
+2024-11-03,Ortho_appointment,12,knee surgery season,Chennai City Clinic
+2024-11-03,Ortho_surgery,29,sports injury,Kolkata Medical Hub
+2024-11-03,Pediatrics_appointment,14,routine,Chennai City Clinic
+2024-11-03,Pediatrics_surgery,23,camp,Mumbai Trauma Center
+2024-11-03,Emergency_appointment,10,accident,Mumbai Trauma Center
+2024-11-03,Emergency_surgery,13,fire outbreak,Chennai City Clinic
+2024-11-03,Dermatology_appointment,9,rash outbreak,Bangalore Health Center
+2024-11-03,Dermatology_surgery,24,routine,Delhi General Hospital
+2024-11-03,ICU_appointment,8,heat wave,Chennai City Clinic
+2024-11-03,ICU_surgery,19,heat wave,Chennai City Clinic
+2024-11-10,Ortho_appointment,23,routine checkup,Chennai City Clinic
+2024-11-10,Ortho_surgery,11,sports injury,Chennai City Clinic
+2024-11-10,Pediatrics_appointment,14,flu season,Mumbai Trauma Center
+2024-11-10,Pediatrics_surgery,22,school health check,Mumbai Trauma Center
+2024-11-10,Emergency_appointment,16,unknown,Delhi General Hospital
+2024-11-10,Emergency_surgery,21,fire outbreak,Mumbai Trauma Center
+2024-11-10,Dermatology_appointment,24,rash outbreak,Kolkata Medical Hub
+2024-11-10,Dermatology_surgery,12,allergy season,Delhi General Hospital
+2024-11-10,ICU_appointment,15,winter spike,Chennai City Clinic
+2024-11-10,ICU_surgery,12,flu season,Mumbai Trauma Center
+2024-11-17,Ortho_appointment,14,knee surgery season,Chennai City Clinic
+2024-11-17,Ortho_surgery,30,sports injury,Delhi General Hospital
+2024-11-17,Pediatrics_appointment,12,flu season,Delhi General Hospital
+2024-11-17,Pediatrics_surgery,20,camp,Chennai City Clinic
+2024-11-17,Emergency_appointment,7,unknown,Chennai City Clinic
+2024-11-17,Emergency_surgery,14,fire outbreak,Delhi General Hospital
+2024-11-17,Dermatology_appointment,26,skin camp,Kolkata Medical Hub
+2024-11-17,Dermatology_surgery,32,routine,Delhi General Hospital
+2024-11-17,ICU_appointment,16,flu season,Kolkata Medical Hub
+2024-11-17,ICU_surgery,8,heat wave,Chennai City Clinic
+2024-11-24,Ortho_appointment,24,knee surgery season,Chennai City Clinic
+2024-11-24,Ortho_surgery,17,camp,Delhi General Hospital
+2024-11-24,Pediatrics_appointment,15,routine,Mumbai Trauma Center
+2024-11-24,Pediatrics_surgery,22,flu season,Chennai City Clinic
+2024-11-24,Emergency_appointment,10,fire outbreak,Mumbai Trauma Center
+2024-11-24,Emergency_surgery,11,fire outbreak,Mumbai Trauma Center
+2024-11-24,Dermatology_appointment,15,allergy season,Mumbai Trauma Center
+2024-11-24,Dermatology_surgery,25,allergy season,Delhi General Hospital
+2024-11-24,ICU_appointment,21,heat wave,Mumbai Trauma Center
+2024-11-24,ICU_surgery,17,flu season,Kolkata Medical Hub
+2024-12-01,Ortho_appointment,18,routine checkup,Kolkata Medical Hub
+2024-12-01,Ortho_surgery,26,routine checkup,Mumbai Trauma Center
+2024-12-01,Pediatrics_appointment,10,camp,Chennai City Clinic
+2024-12-01,Pediatrics_surgery,12,camp,Mumbai Trauma Center
+2024-12-01,Emergency_appointment,30,fire outbreak,Kolkata Medical Hub
+2024-12-01,Emergency_surgery,12,pandemic wave,Delhi General Hospital
+2024-12-01,Dermatology_appointment,18,skin camp,Delhi General Hospital
+2024-12-01,Dermatology_surgery,11,routine,Delhi General Hospital
+2024-12-01,ICU_appointment,26,flu season,Bangalore Health Center
+2024-12-01,ICU_surgery,14,heat wave,Chennai City Clinic
+2024-12-08,Ortho_appointment,12,camp,Delhi General Hospital
+2024-12-08,Ortho_surgery,20,camp,Chennai City Clinic
+2024-12-08,Pediatrics_appointment,20,school health check,Delhi General Hospital
+2024-12-08,Pediatrics_surgery,29,flu season,Mumbai Trauma Center
+2024-12-08,Emergency_appointment,16,fire outbreak,Bangalore Health Center
+2024-12-08,Emergency_surgery,28,pandemic wave,Chennai City Clinic
+2024-12-08,Dermatology_appointment,10,skin camp,Delhi General Hospital
+2024-12-08,Dermatology_surgery,29,skin camp,Chennai City Clinic
+2024-12-08,ICU_appointment,20,winter spike,Kolkata Medical Hub
+2024-12-08,ICU_surgery,21,flu season,Mumbai Trauma Center
+2024-12-15,Ortho_appointment,24,camp,Chennai City Clinic
+2024-12-15,Ortho_surgery,25,knee surgery season,Mumbai Trauma Center
+2024-12-15,Pediatrics_appointment,12,flu season,Mumbai Trauma Center
+2024-12-15,Pediatrics_surgery,19,camp,Mumbai Trauma Center
+2024-12-15,Emergency_appointment,27,pandemic wave,Bangalore Health Center
+2024-12-15,Emergency_surgery,25,fire outbreak,Bangalore Health Center
+2024-12-15,Dermatology_appointment,16,rash outbreak,Delhi General Hospital
+2024-12-15,Dermatology_surgery,10,rash outbreak,Delhi General Hospital
+2024-12-15,ICU_appointment,25,flu season,Bangalore Health Center
+2024-12-15,ICU_surgery,15,winter spike,Chennai City Clinic
+2024-12-22,Ortho_appointment,15,camp,Mumbai Trauma Center
+2024-12-22,Ortho_surgery,10,routine checkup,Mumbai Trauma Center
+2024-12-22,Pediatrics_appointment,13,camp,Mumbai Trauma Center
+2024-12-22,Pediatrics_surgery,9,routine,Bangalore Health Center
+2024-12-22,Emergency_appointment,23,unknown,Mumbai Trauma Center
+2024-12-22,Emergency_surgery,25,unknown,Bangalore Health Center
+2024-12-22,Dermatology_appointment,11,allergy season,Mumbai Trauma Center
+2024-12-22,Dermatology_surgery,11,allergy season,Delhi General Hospital
+2024-12-22,ICU_appointment,31,respiratory issues,Chennai City Clinic
+2024-12-22,ICU_surgery,16,flu season,Delhi General Hospital
+2024-12-29,Ortho_appointment,29,camp,Delhi General Hospital
+2024-12-29,Ortho_surgery,31,sports injury,Bangalore Health Center
+2024-12-29,Pediatrics_appointment,16,flu season,Kolkata Medical Hub
+2024-12-29,Pediatrics_surgery,28,camp,Delhi General Hospital
+2024-12-29,Emergency_appointment,14,accident,Kolkata Medical Hub
+2024-12-29,Emergency_surgery,14,accident,Kolkata Medical Hub
+2024-12-29,Dermatology_appointment,31,allergy season,Bangalore Health Center
+2024-12-29,Dermatology_surgery,14,routine,Bangalore Health Center
+2024-12-29,ICU_appointment,22,heat wave,Mumbai Trauma Center
+2024-12-29,ICU_surgery,27,heat wave,Mumbai Trauma Center
+2025-01-05,Ortho_appointment,16,routine checkup,Kolkata Medical Hub
+2025-01-05,Ortho_surgery,23,sports injury,Delhi General Hospital
+2025-01-05,Pediatrics_appointment,23,flu season,Delhi General Hospital
+2025-01-05,Pediatrics_surgery,23,school health check,Delhi General Hospital
+2025-01-05,Emergency_appointment,29,fire outbreak,Chennai City Clinic
+2025-01-05,Emergency_surgery,26,pandemic wave,Delhi General Hospital
+2025-01-05,Dermatology_appointment,13,rash outbreak,Mumbai Trauma Center
+2025-01-05,Dermatology_surgery,26,routine,Delhi General Hospital
+2025-01-05,ICU_appointment,26,heat wave,Bangalore Health Center
+2025-01-05,ICU_surgery,12,winter spike,Delhi General Hospital
+2025-01-12,Ortho_appointment,16,camp,Kolkata Medical Hub
+2025-01-12,Ortho_surgery,23,camp,Bangalore Health Center
+2025-01-12,Pediatrics_appointment,25,school health check,Bangalore Health Center
+2025-01-12,Pediatrics_surgery,24,camp,Delhi General Hospital
+2025-01-12,Emergency_appointment,30,fire outbreak,Bangalore Health Center
+2025-01-12,Emergency_surgery,21,unknown,Delhi General Hospital
+2025-01-12,Dermatology_appointment,27,routine,Kolkata Medical Hub
+2025-01-12,Dermatology_surgery,14,rash outbreak,Delhi General Hospital
+2025-01-12,ICU_appointment,16,flu season,Mumbai Trauma Center
+2025-01-12,ICU_surgery,11,respiratory issues,Delhi General Hospital
+2025-01-19,Ortho_appointment,27,sports injury,Kolkata Medical Hub
+2025-01-19,Ortho_surgery,20,camp,Chennai City Clinic
+2025-01-19,Pediatrics_appointment,21,camp,Delhi General Hospital
+2025-01-19,Pediatrics_surgery,16,camp,Mumbai Trauma Center
+2025-01-19,Emergency_appointment,29,unknown,Delhi General Hospital
+2025-01-19,Emergency_surgery,10,unknown,Mumbai Trauma Center
+2025-01-19,Dermatology_appointment,28,skin camp,Mumbai Trauma Center
+2025-01-19,Dermatology_surgery,15,rash outbreak,Kolkata Medical Hub
+2025-01-19,ICU_appointment,13,flu season,Delhi General Hospital
+2025-01-19,ICU_surgery,14,respiratory issues,Chennai City Clinic
+2025-01-26,Ortho_appointment,27,camp,Kolkata Medical Hub
+2025-01-26,Ortho_surgery,28,knee surgery season,Chennai City Clinic
+2025-01-26,Pediatrics_appointment,30,camp,Chennai City Clinic
+2025-01-26,Pediatrics_surgery,26,routine,Kolkata Medical Hub
+2025-01-26,Emergency_appointment,26,accident,Chennai City Clinic
+2025-01-26,Emergency_surgery,19,unknown,Chennai City Clinic
+2025-01-26,Dermatology_appointment,33,allergy season,Delhi General Hospital
+2025-01-26,Dermatology_surgery,15,rash outbreak,Delhi General Hospital
+2025-01-26,ICU_appointment,15,flu season,Chennai City Clinic
+2025-01-26,ICU_surgery,18,flu season,Mumbai Trauma Center
+2025-02-02,Ortho_appointment,21,sports injury,Chennai City Clinic
+2025-02-02,Ortho_surgery,27,routine checkup,Kolkata Medical Hub
+2025-02-02,Pediatrics_appointment,12,camp,Chennai City Clinic
+2025-02-02,Pediatrics_surgery,9,camp,Delhi General Hospital
+2025-02-02,Emergency_appointment,17,pandemic wave,Chennai City Clinic
+2025-02-02,Emergency_surgery,20,pandemic wave,Delhi General Hospital
+2025-02-02,Dermatology_appointment,15,allergy season,Kolkata Medical Hub
+2025-02-02,Dermatology_surgery,17,allergy season,Bangalore Health Center
+2025-02-02,ICU_appointment,16,heat wave,Mumbai Trauma Center
+2025-02-02,ICU_surgery,15,flu season,Mumbai Trauma Center
+2025-02-09,Ortho_appointment,29,sports injury,Mumbai Trauma Center
+2025-02-09,Ortho_surgery,11,knee surgery season,Delhi General Hospital
+2025-02-09,Pediatrics_appointment,36,camp,Delhi General Hospital
+2025-02-09,Pediatrics_surgery,24,camp,Kolkata Medical Hub
+2025-02-09,Emergency_appointment,12,unknown,Delhi General Hospital
+2025-02-09,Emergency_surgery,23,unknown,Chennai City Clinic
+2025-02-09,Dermatology_appointment,19,allergy season,Kolkata Medical Hub
+2025-02-09,Dermatology_surgery,31,rash outbreak,Chennai City Clinic
+2025-02-09,ICU_appointment,26,flu season,Delhi General Hospital
+2025-02-09,ICU_surgery,16,heat wave,Mumbai Trauma Center
+2025-02-16,Ortho_appointment,31,sports injury,Bangalore Health Center
+2025-02-16,Ortho_surgery,24,camp,Mumbai Trauma Center
+2025-02-16,Pediatrics_appointment,27,flu season,Chennai City Clinic
+2025-02-16,Pediatrics_surgery,12,camp,Mumbai Trauma Center
+2025-02-16,Emergency_appointment,23,unknown,Mumbai Trauma Center
+2025-02-16,Emergency_surgery,18,accident,Chennai City Clinic
+2025-02-16,Dermatology_appointment,19,allergy season,Kolkata Medical Hub
+2025-02-16,Dermatology_surgery,24,rash outbreak,Delhi General Hospital
+2025-02-16,ICU_appointment,28,flu season,Bangalore Health Center
+2025-02-16,ICU_surgery,25,respiratory issues,Kolkata Medical Hub
+2025-02-23,Ortho_appointment,17,sports injury,Mumbai Trauma Center
+2025-02-23,Ortho_surgery,17,sports injury,Bangalore Health Center
+2025-02-23,Pediatrics_appointment,30,flu season,Bangalore Health Center
+2025-02-23,Pediatrics_surgery,22,school health check,Kolkata Medical Hub
+2025-02-23,Emergency_appointment,24,unknown,Bangalore Health Center
+2025-02-23,Emergency_surgery,19,accident,Chennai City Clinic
+2025-02-23,Dermatology_appointment,37,rash outbreak,Chennai City Clinic
+2025-02-23,Dermatology_surgery,25,rash outbreak,Mumbai Trauma Center
+2025-02-23,ICU_appointment,26,respiratory issues,Bangalore Health Center
+2025-02-23,ICU_surgery,23,flu season,Delhi General Hospital
+2025-03-02,Ortho_appointment,18,knee surgery season,Kolkata Medical Hub
+2025-03-02,Ortho_surgery,11,routine checkup,Delhi General Hospital
+2025-03-02,Pediatrics_appointment,25,camp,Mumbai Trauma Center
+2025-03-02,Pediatrics_surgery,12,routine,Chennai City Clinic
+2025-03-02,Emergency_appointment,19,unknown,Mumbai Trauma Center
+2025-03-02,Emergency_surgery,21,unknown,Chennai City Clinic
+2025-03-02,Dermatology_appointment,23,allergy season,Kolkata Medical Hub
+2025-03-02,Dermatology_surgery,26,rash outbreak,Kolkata Medical Hub
+2025-03-02,ICU_appointment,18,respiratory issues,Bangalore Health Center
+2025-03-02,ICU_surgery,29,heat wave,Kolkata Medical Hub
+2025-03-09,Ortho_appointment,32,camp,Kolkata Medical Hub
+2025-03-09,Ortho_surgery,14,camp,Mumbai Trauma Center
+2025-03-09,Pediatrics_appointment,21,school health check,Mumbai Trauma Center
+2025-03-09,Pediatrics_surgery,25,routine,Delhi General Hospital
+2025-03-09,Emergency_appointment,21,fire outbreak,Kolkata Medical Hub
+2025-03-09,Emergency_surgery,10,accident,Delhi General Hospital
+2025-03-09,Dermatology_appointment,29,allergy season,Kolkata Medical Hub
+2025-03-09,Dermatology_surgery,9,skin camp,Bangalore Health Center
+2025-03-09,ICU_appointment,28,flu season,Delhi General Hospital
+2025-03-09,ICU_surgery,25,respiratory issues,Mumbai Trauma Center
+2025-03-16,Ortho_appointment,31,routine checkup,Kolkata Medical Hub
+2025-03-16,Ortho_surgery,24,knee surgery season,Mumbai Trauma Center
+2025-03-16,Pediatrics_appointment,27,school health check,Chennai City Clinic
+2025-03-16,Pediatrics_surgery,15,routine,Mumbai Trauma Center
+2025-03-16,Emergency_appointment,32,pandemic wave,Chennai City Clinic
+2025-03-16,Emergency_surgery,19,pandemic wave,Mumbai Trauma Center
+2025-03-16,Dermatology_appointment,26,skin camp,Kolkata Medical Hub
+2025-03-16,Dermatology_surgery,28,routine,Bangalore Health Center
+2025-03-16,ICU_appointment,23,flu season,Mumbai Trauma Center
+2025-03-16,ICU_surgery,16,respiratory issues,Kolkata Medical Hub
+2025-03-23,Ortho_appointment,28,routine checkup,Kolkata Medical Hub
+2025-03-23,Ortho_surgery,18,routine checkup,Mumbai Trauma Center
+2025-03-23,Pediatrics_appointment,27,school health check,Delhi General Hospital
+2025-03-23,Pediatrics_surgery,16,school health check,Bangalore Health Center
+2025-03-23,Emergency_appointment,19,unknown,Bangalore Health Center
+2025-03-23,Emergency_surgery,31,pandemic wave,Delhi General Hospital
+2025-03-23,Dermatology_appointment,20,allergy season,Bangalore Health Center
+2025-03-23,Dermatology_surgery,30,rash outbreak,Chennai City Clinic
+2025-03-23,ICU_appointment,12,winter spike,Kolkata Medical Hub
+2025-03-23,ICU_surgery,24,respiratory issues,Mumbai Trauma Center
+2025-03-30,Ortho_appointment,16,sports injury,Kolkata Medical Hub
+2025-03-30,Ortho_surgery,21,routine checkup,Chennai City Clinic
+2025-03-30,Pediatrics_appointment,15,flu season,Chennai City Clinic
+2025-03-30,Pediatrics_surgery,16,school health check,Mumbai Trauma Center
+2025-03-30,Emergency_appointment,27,fire outbreak,Bangalore Health Center
+2025-03-30,Emergency_surgery,13,pandemic wave,Delhi General Hospital
+2025-03-30,Dermatology_appointment,23,skin camp,Bangalore Health Center
+2025-03-30,Dermatology_surgery,13,skin camp,Chennai City Clinic
+2025-03-30,ICU_appointment,29,winter spike,Bangalore Health Center
+2025-03-30,ICU_surgery,27,respiratory issues,Bangalore Health Center
+2025-04-06,Ortho_appointment,21,sports injury,Delhi General Hospital
+2025-04-06,Ortho_surgery,26,camp,Chennai City Clinic
+2025-04-06,Pediatrics_appointment,28,school health check,Kolkata Medical Hub
+2025-04-06,Pediatrics_surgery,26,school health check,Bangalore Health Center
+2025-04-06,Emergency_appointment,18,pandemic wave,Delhi General Hospital
+2025-04-06,Emergency_surgery,18,unknown,Bangalore Health Center
+2025-04-06,Dermatology_appointment,14,routine,Kolkata Medical Hub
+2025-04-06,Dermatology_surgery,16,skin camp,Chennai City Clinic
+2025-04-06,ICU_appointment,15,winter spike,Delhi General Hospital
+2025-04-06,ICU_surgery,18,respiratory issues,Mumbai Trauma Center
+2025-04-13,Ortho_appointment,25,camp,Kolkata Medical Hub
+2025-04-13,Ortho_surgery,31,routine checkup,Bangalore Health Center
+2025-04-13,Pediatrics_appointment,30,routine,Delhi General Hospital
+2025-04-13,Pediatrics_surgery,23,routine,Mumbai Trauma Center
+2025-04-13,Emergency_appointment,18,accident,Kolkata Medical Hub
+2025-04-13,Emergency_surgery,23,pandemic wave,Delhi General Hospital
+2025-04-13,Dermatology_appointment,27,rash outbreak,Chennai City Clinic
+2025-04-13,Dermatology_surgery,20,skin camp,Bangalore Health Center
+2025-04-13,ICU_appointment,30,winter spike,Bangalore Health Center
+2025-04-13,ICU_surgery,32,winter spike,Bangalore Health Center
+2025-04-20,Ortho_appointment,34,routine checkup,Kolkata Medical Hub
+2025-04-20,Ortho_surgery,21,routine checkup,Delhi General Hospital
+2025-04-20,Pediatrics_appointment,20,camp,Bangalore Health Center
+2025-04-20,Pediatrics_surgery,17,flu season,Delhi General Hospital
+2025-04-20,Emergency_appointment,34,fire outbreak,Chennai City Clinic
+2025-04-20,Emergency_surgery,24,accident,Mumbai Trauma Center
+2025-04-20,Dermatology_appointment,29,rash outbreak,Bangalore Health Center
+2025-04-20,Dermatology_surgery,25,rash outbreak,Delhi General Hospital
+2025-04-20,ICU_appointment,30,heat wave,Mumbai Trauma Center
+2025-04-20,ICU_surgery,17,flu season,Delhi General Hospital
+2025-04-27,Ortho_appointment,21,camp,Delhi General Hospital
+2025-04-27,Ortho_surgery,28,knee surgery season,Chennai City Clinic
+2025-04-27,Pediatrics_appointment,28,flu season,Chennai City Clinic
+2025-04-27,Pediatrics_surgery,27,flu season,Bangalore Health Center
+2025-04-27,Emergency_appointment,34,unknown,Delhi General Hospital
+2025-04-27,Emergency_surgery,28,pandemic wave,Delhi General Hospital
+2025-04-27,Dermatology_appointment,26,skin camp,Chennai City Clinic
+2025-04-27,Dermatology_surgery,10,rash outbreak,Delhi General Hospital
+2025-04-27,ICU_appointment,29,flu season,Kolkata Medical Hub
+2025-04-27,ICU_surgery,9,respiratory issues,Bangalore Health Center

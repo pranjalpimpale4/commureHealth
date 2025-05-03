@@ -1,0 +1,57 @@
+{
+  "total_predicted":  200,
+  "recurring_estimated":  136,
+  "non_recurring_estimated":  64,
+  "justifications": [
+    {
+      "activity_type": "Ortho_appointment",
+      "recurring_count": 12,
+      "reason": "Regular appointments increase in spring due to sports-related injuries."
+    },
+    {
+      "activity_type": "Ortho_surgery",
+      "recurring_count": 10,
+      "reason": "Consistent surgeries align with sports injury seasons."
+    },
+    {
+      "activity_type": "Pediatrics_appointment",
+      "recurring_count": 8,
+      "reason": "Routine pediatric visits peak during school season, indicating seasonal recurrence."
+    },
+    {
+      "activity_type": "Pediatrics_surgery",
+      "recurring_count": 6,
+      "reason": "Scheduled surgeries based on prior school year patterns."
+    },
+    {
+      "activity_type": "Emergency_appointment",
+      "recurring_count": 10,
+      "reason": "Emergency visits are stable due to seasonal flu incidents and accidents."
+    },
+    {
+      "activity_type": "Emergency_surgery",
+      "recurring_count": 7,
+      "reason": "Emergency surgeries correlate with increased accident rates during festive seasons."
+    },
+    {
+      "activity_type": "Dermatology_appointment",
+      "recurring_count": 10,
+      "reason": "Increased dermatology visits during summer for skin issues."
+    },
+    {
+      "activity_type": "Dermatology_surgery",
+      "recurring_count": 8,
+      "reason": "Recurring issues with skin conditions lead to consistent surgical needs."
+    },
+    {
+      "activity_type": "ICU_appointment",
+      "recurring_count": 15,
+      "reason": "ICU admissions are stable with ongoing health issues like respiratory diseases."
+    },
+    {
+      "activity_type": "ICU_surgery",
+      "recurring_count": 10,
+      "reason": "Surgical interventions follow a predictable pattern based on historical ICU data."
+    }
+  ]
+}
