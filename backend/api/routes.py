@@ -416,3 +416,84 @@ def delete_inventory_item(item_id: int, session: Session = Depends(get_session))
         return {"status": "success", "message": f"Item {item_id} deleted"}
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+@router.post("/inventory/shortages/disaster")
+def get_disaster_based_shortages(session: Session = Depends(get_session)):
+    try:
+        # Load category mapping
+        base_dir = os.path.dirname(os.path.dirname(__file__))
+        mapping_path = os.path.join(base_dir, "data", "category_mapping.json")
+        with open(mapping_path) as f:
+            category_map = json.load(f)
+
+        # Run AI disaster inventory agent
+        ai_shortages = run_disaster_inventory_agent()
+
+        # Build response
+        response = []
+        for shortage in ai_shortages:
+            item_id = shortage["item_id"]
+            needed = shortage["needed"]
+            inventory_item = session.exec(select(InventoryItem).where(InventoryItem.id == item_id)).first()
+            response.append({
+                "item_id": item_id,
+                "item": inventory_item.name if inventory_item else "Unknown",
+                "description": inventory_item.description if inventory_item else "N/A",
+                "available": inventory_item.available_count if inventory_item else 0,
+                "needed": needed
+            })
+
+        return {
+            "status": "success",
+            "source": "disaster_agent",
+            "shortages": response
+        }
+
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"status": "error", "message": str(e)})
+
+@router.post("/inventory/shortages/forecast")
+def get_forecast_based_shortages(session: Session = Depends(get_session)):
+    try:
+        # Load category mapping
+        base_dir = os.path.dirname(os.path.dirname(__file__))
+        mapping_path = os.path.join(base_dir, "data", "category_mapping.json")
+        with open(mapping_path) as f:
+            category_map = json.load(f)
+
+        # Run Prophet forecast
+        result = run_forecast()
+        forecast_events = [
+            {
+                "category": f["category"],
+                "event_date": datetime.strptime(f["event_date"], "%Y-%m-%d").date(),
+                "count": f["count"]
+            }
+            for f in result["forecast"]
+        ]
+
+        # Compute shortages
+        shortages = compute_inventory_shortages(forecast_events, category_map, session)
+
+        # Build response
+        response = []
+        for shortage in shortages:
+            item_id = shortage["item_id"]
+            needed = shortage["needed"]
+            inventory_item = session.exec(select(InventoryItem).where(InventoryItem.id == item_id)).first()
+            response.append({
+                "item_id": item_id,
+                "item": inventory_item.name if inventory_item else "Unknown",
+                "description": inventory_item.description if inventory_item else "N/A",
+                "available": inventory_item.available_count if inventory_item else 0,
+                "needed": needed
+            })
+
+        return {
+            "status": "success",
+            "source": "forecast_model",
+            "shortages": response
+        }
+
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"status": "error", "message": str(e)})

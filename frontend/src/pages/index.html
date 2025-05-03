@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tableau Dashboard Embed</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        padding: 2rem;
+      }
+
+      h1 {
+        text-align: center;
+        color: #1f2937;
+      }
+
+      #tableauViz {
+        width: 100%;
+        max-width: 1200px;
+        height: 800px;
+        margin: 2rem auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Embedded Tableau Dashboard</h1>
+
+    <div id="tableauViz"></div>
+
+    <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+    <script>
+      window.onload = function () {
+        const vizURL =
+          "https://public.tableau.com/views/BritishAirwaysReviews_17462436468900/Dashboard1";
+
+        const containerDiv = document.getElementById("tableauViz");
+
+        const options = {
+          width: "100%",
+          height: "800px",
+          hideTabs: true,
+          hideToolbar: false,
+          onFirstInteractive: function () {
+            console.log("✅ Tableau dashboard is interactive");
+          },
+        };
+
+        try {
+          new tableau.Viz(containerDiv, vizURL, options);
+        } catch (err) {
+          console.error("❌ Tableau embed error:", err);
+        }
+      };
+    </script>
+  </body>
+</html>
