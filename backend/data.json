@@ -1,7 +1,0 @@
-{
-    "patients": [
-      {"name": "Alice", "status": "stable"},
-      {"name": "Bob", "status": "critical"}
-    ]
-  }
-  

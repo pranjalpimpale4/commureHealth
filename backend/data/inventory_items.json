@@ -1,0 +1,23 @@
+[
+    { "name": "gloves", "description": "Sterile gloves for general use", "available_count": 500, "threshold": 100 },
+    { "name": "mask", "description": "Surgical face masks", "available_count": 400, "threshold": 100 },
+    { "name": "surgical kit", "description": "Complete kit for surgeries", "available_count": 150, "threshold": 30 },
+    { "name": "scalpel", "description": "Precision surgical blades", "available_count": 200, "threshold": 50 },
+    { "name": "anesthesia", "description": "General use anesthesia", "available_count": 100, "threshold": 20 },
+    { "name": "oxygen mask", "description": "Masks for oxygen administration", "available_count": 250, "threshold": 60 },
+    { "name": "child-size gown", "description": "Hospital gowns for children", "available_count": 180, "threshold": 40 },
+    { "name": "bone saw", "description": "Surgical saws for orthopedic use", "available_count": 75, "threshold": 20 },
+    { "name": "ventilator", "description": "Respiratory support machines", "available_count": 30, "threshold": 10 },
+    { "name": "dermatology kit", "description": "Specialized dermatology equipment", "available_count": 90, "threshold": 20 },
+    { "name": "IV kit", "description": "Intravenous therapy starter kits", "available_count": 300, "threshold": 80 },
+    { "name": "trauma bandage", "description": "High-absorbency trauma dressings", "available_count": 220, "threshold": 70 },
+    { "name": "pediatric stethoscope", "description": "Small-sized stethoscopes", "available_count": 100, "threshold": 25 },
+    { "name": "pediatric mask", "description": "Face masks for children", "available_count": 120, "threshold": 30 },
+    { "name": "orthopedic drill", "description": "Powered drill for orthopedic surgery", "available_count": 50, "threshold": 10 },
+    { "name": "mobility aid (crutch)", "description": "Crutches for post-op recovery", "available_count": 100, "threshold": 25 },
+    { "name": "emergency meds pack", "description": "Basic medication for ER use", "available_count": 110, "threshold": 30 },
+    { "name": "ICU monitoring cable", "description": "Cables for ICU patient monitors", "available_count": 80, "threshold": 25 },
+    { "name": "patient wristband", "description": "Identification wristbands", "available_count": 500, "threshold": 100 },
+    { "name": "laser cautery tool", "description": "Laser device for cauterization", "available_count": 40, "threshold": 10 }
+  ]
+  
