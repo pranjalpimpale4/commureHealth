@@ -11,7 +11,7 @@ from agents.appointment_forecaster import run_forecast
 from fastapi.responses import JSONResponse
 from datetime import datetime
 from agents.disaster_inventory_agent import run_disaster_inventory_agent  # ✅ Step 3 agent import
-
+from tools.fetch_disasters import  DisasterFetcher
 
 @router.get("/check-inventory")
 def check_inventory(session: Session = Depends(get_session)):
@@ -429,6 +429,12 @@ def get_disaster_based_shortages(session: Session = Depends(get_session)):
         # Run AI disaster inventory agent
         ai_shortages = run_disaster_inventory_agent()
 
+        fetcher = DisasterFetcher()
+        disasters = fetcher.get_disasters()
+        headlines = [d["headline"] for d in disasters if d.get("headline")]
+
+
+
         # Build response
         response = []
         for shortage in ai_shortages:
@@ -446,6 +452,7 @@ def get_disaster_based_shortages(session: Session = Depends(get_session)):
         return {
             "status": "success",
             "source": "disaster_agent",
+            "Event": headlines[:10],
             "shortages": response
         }
 

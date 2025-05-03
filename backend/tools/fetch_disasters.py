@@ -95,3 +95,6 @@ class DisasterFetcher:
     def get_disasters(self):
         print("🌐 Fetching disasters from ReliefWeb, GDACS, and EMSC...")
         return self.fetch_reliefweb() + self.fetch_gdacs() + self.fetch_emsc()
+        print(f"✅ Total disasters fetched: {len(all_disasters)}")
+        print(f"📰 Sample headlines: {[d['headline'] for d in all_disasters if d.get('headline')][:5]}")
+        return all_disasters
