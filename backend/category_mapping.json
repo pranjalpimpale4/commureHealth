@@ -1,0 +1,5 @@
+{
+    "ventilator_cases": ["ventilators", "tubing_set"],
+    "covid_cases": ["masks", "gloves", "sanitizer"],
+    "surgery": ["scalpel", "surgical_kit"]
+}

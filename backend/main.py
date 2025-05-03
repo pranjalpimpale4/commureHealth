@@ -1,25 +1,21 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from quote_agent import get_random_quote  # <-- import this
+from db import init_db
+from api.routes import router as inventory_router
+from api.hello import hello_router
+from api.quote import quote_router
 
 app = FastAPI()
+init_db()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # or the exact URL of your frontend
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/hello")
-def hello():
-    return {"message": "Hello from FastAPI!"}
-
-@app.get("/quote")
-def quote():
-    try:
-        text = get_random_quote()
-        return {"quote": text}
-    except Exception as e:
-        return {"error": str(e)}
+app.include_router(inventory_router)
+app.include_router(hello_router)
+app.include_router(quote_router)
