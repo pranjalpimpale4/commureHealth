@@ -11,13 +11,12 @@ function App() {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.5; // Slow down video
+      videoRef.current.playbackRate = 0.5;
     }
   }, []);
 
   return (
     <>
-      {/* ✅ Background Video */}
       <video
         ref={videoRef}
         autoPlay
@@ -30,10 +29,8 @@ function App() {
         Your browser does not support the video tag.
       </video>
 
-      {/* ✅ Overlay to darken */}
       <div className="background-overlay"></div>
 
-      {/* ✅ Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand fw-bold" to="/">SUPPLYLINE</Link>
@@ -60,6 +57,16 @@ function App() {
               <li className="nav-item">
                 <Link className="nav-link" to="/disaster">Disaster</Link>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="/agent-chat.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Agent Chat
+                </a>
+              </li>
             </ul>
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" />
@@ -69,7 +76,6 @@ function App() {
         </div>
       </nav>
 
-      {/* ✅ Page Content */}
       <div style={{ paddingTop: "80px" }}>
         <Routes>
           <Route path="/" element={<Landing />} />

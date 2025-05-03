@@ -17,16 +17,16 @@ const navItems = [
     img: "https://cdn-icons-png.flaticon.com/512/1159/1159633.png",
   },
   {
-    title: "Demand",
-    path: "/demand",
-    description: "Forecast hospital needs and ensure optimal resource allocation.",
+    title: "Agent",
+    path: "/agent-chat",
+    description: "Deploy smart agents to optimize hospital supply inventories.",
     img: "https://cdn-icons-png.flaticon.com/512/4149/4149656.png",
   },
   {
     title: "Home",
-    path: "/",
+    path: "/home",
     description: "View performance dashboards and system-wide insights.",
-    img: "https://cdn-icons-png.flaticon.com/512/3081/3081559.png",
+    img: "https://img.icons8.com/ios/50/home--v1.png",
   },
 ];
 
