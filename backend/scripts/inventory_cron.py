@@ -4,7 +4,7 @@ import schedule
 
 def run_inventory_check():
     try:
-        response = requests.get("http://127.0.0.1:8000/check-inventory")
+        response = requests.get("http://127.0.0.1:8000/inventory/adjust-threshold")
         print("Inventory check response:", response.json())
     except Exception as e:
         print("Error in inventory check:", e)

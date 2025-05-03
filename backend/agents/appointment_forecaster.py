@@ -2,46 +2,50 @@ from prophet import Prophet
 import pandas as pd
 import json
 from datetime import datetime
+import os
 
-# Load data
-df = pd.read_csv("data/historical_appointments_with_address.csv", parse_dates=["date"])
+def run_forecast():
+    base_dir = os.path.dirname(os.path.dirname(__file__))  # from agents/ to backend/
+    csv_path = os.path.join(base_dir, "data", "historical_appointments_with_address.csv")
+    output_path = os.path.join(base_dir, "data", "activity_forecast_llm_ready.json")
 
-forecast_results = []
-forecast_horizon = 1  # 1 week ahead
+    df = pd.read_csv(csv_path, parse_dates=["date"])
 
-for activity_type in df["activity_type"].unique():
-    activity_df = df[df["activity_type"] == activity_type][["date", "count"]].rename(columns={"date": "ds", "count": "y"})
-    
-    # Convert to numeric, drop NaNs
-    activity_df["y"] = pd.to_numeric(activity_df["y"], errors="coerce")
-    activity_df.dropna(inplace=True)
+    forecast_results = []
+    for activity_type in df["activity_type"].unique():
+        activity_df = df[df["activity_type"] == activity_type][["date", "count"]].rename(columns={"date": "ds", "count": "y"})
+        activity_df["y"] = pd.to_numeric(activity_df["y"], errors="coerce")
+        activity_df.dropna(inplace=True)
 
-    if len(activity_df) < 2:
-        print(f"Skipping {activity_type} — not enough data")
-        continue
+        if len(activity_df) < 2:
+            continue
 
-    model = Prophet(weekly_seasonality=True, yearly_seasonality=True)
-    model.fit(activity_df)
-    
-    future = model.make_future_dataframe(periods=1, freq="W")
-    forecast = model.predict(future)
-    next_week = forecast.tail(1)
+        model = Prophet(weekly_seasonality=True, yearly_seasonality=True)
+        model.fit(activity_df)
 
-    for _, row in next_week.iterrows():
-        forecast_results.append({
-            "activity_type": activity_type,
-            "week": row["ds"].strftime("%Y-%m-%d"),
-            "forecasted_count": round(row["yhat"])
-        })
+        future = model.make_future_dataframe(periods=1, freq="W")
+        forecast = model.predict(future)
+        next_week = forecast.tail(1)
 
-# Save output
-output = {
-    "generated_on": datetime.utcnow().isoformat(),
-    "forecast": forecast_results
-}
+        for _, row in next_week.iterrows():
+            forecast_results.append({
+                "category": activity_type,
+                "event_date": row["ds"].strftime("%Y-%m-%d"),
+                "count": round(row["yhat"])
+            })
 
-with open("data/activity_forecast_llm_ready.json", "w") as f:
-    json.dump(output, f, indent=2)
+    output = {
+        "generated_on": datetime.utcnow().isoformat(),
+        "forecast": forecast_results
+    }
+
+    with open(output_path, "w") as f:
+        json.dump(output, f, indent=2)
+
+    print(json.dumps(output, indent=2))  # ✅ This will print
+
+    return output
 
 
-print("✅ Forecast saved to activity_forecast_llm_ready.json")
+# if __name__ == "__main__":
+#     run_forecast()
