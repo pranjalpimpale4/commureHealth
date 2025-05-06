@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Inventory from "./pages/Inventory";
 import Disaster from "./pages/Disaster";
 import Landing from "./pages/Landing";
+import AgentChat from "./pages/AgentChat";
 import "./App.css";
 
 function App() {
@@ -58,15 +59,9 @@ function App() {
                 <Link className="nav-link" to="/disaster">Disaster</Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="/agent-chat.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Agent Chat
-                </a>
+                <Link className="nav-link" to="/agentchat">Agent Chat</Link>
               </li>
+              
             </ul>
             
           </div>
@@ -79,6 +74,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/inventory" element={<Inventory />} />
           <Route path="/disaster" element={<Disaster />} />
+          <Route path="/agentchat" element={<AgentChat/>} />
         </Routes>
       </div>
     </>

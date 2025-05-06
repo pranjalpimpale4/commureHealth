@@ -1,141 +1,78 @@
-import { useEffect, useState } from "react";
-
-type Message = {
-  round: number;
-  role: string;
-  content: string;
-};
+// src/pages/AgentChat.tsx
+import React from "react";
+import "./AgentChat.css";
 
 const AgentChat = () => {
-  const [chatLog, setChatLog] = useState<Message[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [starting, setStarting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const parseRawLog = (data: string[]): Message[] => {
-    let roundCounter = 1;
-    return data.map((line) => {
-      const match = line.match(/^(.+?):\s+(.*)$/);
-      if (match) {
-        const [, role, content] = match;
-        return {
-          round: roundCounter++,
-          role,
-          content,
-        };
-      } else {
-        return {
-          round: roundCounter++,
-          role: "System",
-          content: line,
-        };
-      }
-    });
-  };
-
-  const fetchChat = () => {
-    setLoading(true);
-    setError(null);
-    fetch("http://localhost:8000/chat-log")
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP error: ${res.status}`);
-        }
-        return res.json();
-      })
-      .then((data) => {
-        if (Array.isArray(data)) {
-          const parsed = parseRawLog(data);
-          setChatLog(parsed);
-        } else {
-          console.warn("Unexpected response format:", data);
-          setError("Invalid response format from server.");
-        }
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch chat log:", err);
-        setError("Failed to load chat log.");
-        setLoading(false);
-      });
-  };
-
-  useEffect(() => {
-    fetchChat();
-    const interval = setInterval(fetchChat, 2000); // Live polling every 2 sec
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleStartNegotiation = async () => {
-    setStarting(true);
-    setError(null);
-    try {
-      const response = await fetch("http://localhost:8000/start-negotiation", {
-        method: "POST",
-      });
-      const data = await response.json();
-      console.log("Negotiation started:", data);
-      fetchChat(); // Refresh chat log
-    } catch (err) {
-      console.error("Failed to start negotiation", err);
-      setError("Error starting negotiation.");
-    } finally {
-      setStarting(false);
-    }
-  };
-
   return (
-    <div
-      className="d-flex justify-content-center align-items-center"
-      style={{
-        minHeight: "100vh",
-        padding: "40px",
-        background: "rgba(0, 0, 0, 0.5)",
-      }}
-    >
-      <div style={{ maxWidth: "800px", width: "100%", color: "#fff" }}>
-        <h2 className="mb-4 text-center">Agent Negotiation Chat</h2>
+    <div className="agentchat-container">
+      <div className="agentchat-header">
+        <h1>Medical Supply Negotiation Portal</h1>
+      </div>
 
-        <div className="text-center">
-          <button
-            onClick={handleStartNegotiation}
-            className="btn btn-primary mb-4"
-            disabled={starting}
-          >
-            {starting ? "Starting..." : "Start Negotiation"}
-          </button>
+      <div className="negotiation-grid">
+        {/* Participants */}
+        <div className="left-panel">
+          <div className="room-title">🟣 Active Negotiation Room</div>
+          <div className="participant-list">
+            <div className="participant"><span className="avatar ha">HA</span><div><strong>Hospital Agent</strong><br /><span className="org">St. Mary Medical</span></div></div>
+            <div className="participant"><span className="avatar ca">CA</span><div><strong>Clinic Agent</strong><br /><span className="org">Downtown Health</span></div></div>
+            <div className="participant"><span className="avatar pa">PA</span><div><strong>Pharmacy Agent</strong><br /><span className="org">MedRx Solutions</span></div></div>
+            <div className="participant"><span className="avatar na">NA</span><div><strong>NGO Agent</strong><br /><span className="org">Global Health Aid</span></div></div>
+          </div>
+          <div className="online-status">🟢 4 online <span className="invite">Invite +</span></div>
         </div>
 
-        {loading && <p className="text-center">Loading chat...</p>}
+        {/* Chat */}
+        <div className="center-panel">
+          <div className="messages">
+            <div className="message msg-hospital">• Pharmacy: 800 units at $7.50<br />• NGO: 700 units at $6.75</div>
+            <div className="message msg-hospital">We aim to distribute everything before the expiration deadline.</div>
+            <div className="message msg-ngo">We agree to $6.75 for 700 units, delivery within 2 days.</div>
+            <div className="message msg-clinic">We accept $7.25 for 500 units. Please confirm timeline.</div>
+          </div>
+          <div className="input-area">
+            <input type="text" placeholder="Type your message..." />
+            <button className="send-btn">Send</button>
+          </div>
+        </div>
 
-        {error && (
-          <div className="alert alert-danger text-center">{error}</div>
-        )}
+        {/* Deal Summary */}
+        <div className="right-panel">
+          <div className="deal-card">
+            <h4>Product Information</h4>
+            <p><strong>Medicine:</strong> Amoxicillin<br />
+              <strong>Dosage:</strong> 500mg<br />
+              <strong>Quantity:</strong> 2,000 units<br />
+              <strong>Expires:</strong> In 3 months</p>
+          </div>
+          <div className="deal-card">
+            <h4>Current Offers</h4>
+            <p><strong>Clinic:</strong> <span className="green">$7.25</span><br />
+              <strong>Pharmacy:</strong> <span className="green">$7.50</span><br />
+              <strong>NGO:</strong> <span className="green">$6.75</span></p>
+          </div>
+          <div className="deal-card">
+            <button className="expert-btn">➕ Invite Expert Advisor</button>
+          </div>
+        </div>
+      </div>
 
-        {!loading && !error && chatLog.length === 0 && (
-          <p className="text-center">No messages yet. Start a negotiation.</p>
-        )}
+      {/* Bottom Insights */}
+      <div className="bottom-info">
+        <div className="bottom-card">
+          <h4>Current Market Pricing</h4>
+          <p><strong>Wholesale:</strong> $15.00<br />
+            <strong>Retail:</strong> $22.50<br />
+            <strong>Hospital Cost:</strong> $6.50<br />
+            <strong>NGO Rate:</strong> $5.75</p>
+        </div>
 
-        {!loading &&
-          !error &&
-          chatLog.map((msg, idx) => (
-            <div
-              key={idx}
-              style={{
-                background: "rgba(255, 255, 255, 0.1)",
-                border: "1px solid rgba(255,255,255,0.2)",
-                padding: "15px",
-                marginBottom: "15px",
-                borderRadius: "12px",
-                boxShadow: "0 0 10px rgba(255,255,255,0.1)",
-              }}
-            >
-              <strong>
-                Round {msg.round} - {msg.role}
-              </strong>
-              <p>{msg.content}</p>
-            </div>
-          ))}
+        <div className="bottom-card">
+          <h4>Negotiation Timeline</h4>
+          <p><strong>10:15 AM</strong> - Negotiation Started<br />
+            <strong>10:18 AM</strong> - Offers Made<br />
+            <strong>10:25 AM</strong> - Counter Proposed</p>
+        </div>
       </div>
     </div>
   );
