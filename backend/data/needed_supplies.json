@@ -1,0 +1,3 @@
+{
+  "recommendations": "[\n  {\"item_id\": 1, \"needed\": 1589},\n  {\"item_id\": 2, \"needed\": 167},\n  {\"item_id\": 3, \"needed\": 1036},\n  {\"item_id\": 4, \"needed\": 822},\n  {\"item_id\": 6, \"needed\": 543},\n  {\"item_id\": 8, \"needed\": 47},\n  {\"item_id\": 9, \"needed\": 209},\n  {\"item_id\": 10, \"needed\": 471},\n  {\"item_id\": 12, \"needed\": 334},\n  {\"item_id\": 13, \"needed\": 445},\n  {\"item_id\": 15, \"needed\": 75},\n  {\"item_id\": 16, \"needed\": 222},\n  {\"item_id\": 17, \"needed\": 176},\n  {\"item_id\": 20, \"needed\": 246}\n]"
+}

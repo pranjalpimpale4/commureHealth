@@ -1,0 +1,71 @@
+/* Ensure full width and height */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background:transparent;
+  }
+  
+  .home-container {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: transparent;
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  /* Grid that allows wrapping but also fills full width */
+  .chart-grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  /* Make each chart take max 25% on large screens */
+  .chart-card {
+    background: transparent;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    flex: 1 1 22%;
+    min-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* lighter */
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .chart-card:hover {
+    transform: scale(1.03);
+  }
+  
+
+  canvas {
+    background-color: transparent !important;
+  }
+  

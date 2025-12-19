@@ -1,0 +1,215 @@
+/* === AgentChat Dark Themed CSS with Orange Borders and Transparent Background === */
+
+body {
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .agentchat-container {
+   
+    flex-direction: column;
+    padding: 2rem;
+    width: 100vw;
+     
+    box-sizing: border-box;
+  }
+  
+  
+  .agentchat-header {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .agentchat-header h1 {
+    color: #ffffff;
+    font-size: 2.8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    margin-top: 0rem;
+
+  }
+  
+
+  
+  /* === Layout Grid === */
+  .negotiation-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .left-panel,
+  .center-panel,
+  .right-panel,
+  .bottom-card,
+  .deal-card {
+    border: 2px solid #ffffff; /* Orange Frame */
+    background: rgba(255, 255, 255, 0.03); /* Transparent BG */
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: #f0f0f0;
+    box-sizing: border-box;
+  }
+  
+  .left-panel,
+  .right-panel {
+    flex: 1;
+    min-width: 280px;
+    max-width: 300px;
+  }
+  
+  .center-panel {
+    flex: 3;
+    min-width: 500px;
+  }
+  
+  /* === Participants === */
+  .room-title {
+    background: #6c00ff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .participant-list .participant {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+  }
+  
+  .avatar {
+    background: #444;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    color: white;
+    font-weight: bold;
+  }
+  .ha { background: #7b68ee; }
+  .ca { background: #20c997; }
+  .pa { background: #ffb347; }
+  .na { background: #6495ed; }
+  
+  .org {
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+  
+  .online-status {
+    font-size: 1rem;
+    color: #5cff87;
+  }
+  .invite {
+    float: right;
+    color: #bb86fc;
+    cursor: pointer;
+  }
+  
+  /* === Messages & Input === */
+  .messages {
+    margin-bottom: 1.2rem;
+    max-height: 350px;
+    overflow-y: auto;
+    font-size: 1.05rem;
+  }
+  
+  .message {
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .msg-hospital { background: #444; }
+  .msg-ngo { background: #cceeff; color: #000; }
+  .msg-clinic { background: #ccffcc; color: #000; }
+  
+  .input-area {
+    display: flex;
+    gap: 0.6rem;
+  }
+  
+  .input-area input {
+    flex: 1;
+    padding: 0.75rem;
+    background: #1e1e1e;
+    color: #eee;
+    border: 1px solid #777;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .send-btn {
+    padding: 0.75rem 1.4rem;
+    background: #6c00ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* === Deal Cards === */
+  .deal-card h4 {
+    color: #fff;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+  }
+  
+  .deal-card p {
+    font-size: 1rem;
+    line-height: 1.6; 
+  }
+  
+  .green {
+    color: #2efc9b;
+    font-weight: bold;
+  }
+  
+  .expert-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: transparent;
+    border: 2px dashed #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* === Bottom Info Section === */
+  .bottom-info {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  .bottom-card {
+    flex: 1;
+    min-width: 400px;
+  }
+  
+  .bottom-card h4 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .bottom-card p {
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

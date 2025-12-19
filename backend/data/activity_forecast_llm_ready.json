@@ -1,0 +1,55 @@
+{
+  "generated_on": "2025-05-03T19:21:56.605616",
+  "forecast": [
+    {
+      "category": "Ortho_appointment",
+      "event_date": "2025-05-04",
+      "count": 24
+    },
+    {
+      "category": "Ortho_surgery",
+      "event_date": "2025-05-04",
+      "count": 25
+    },
+    {
+      "category": "Pediatrics_appointment",
+      "event_date": "2025-05-04",
+      "count": 22
+    },
+    {
+      "category": "Pediatrics_surgery",
+      "event_date": "2025-05-04",
+      "count": 18
+    },
+    {
+      "category": "Emergency_appointment",
+      "event_date": "2025-05-04",
+      "count": 23
+    },
+    {
+      "category": "Emergency_surgery",
+      "event_date": "2025-05-04",
+      "count": 17
+    },
+    {
+      "category": "Dermatology_appointment",
+      "event_date": "2025-05-04",
+      "count": 20
+    },
+    {
+      "category": "Dermatology_surgery",
+      "event_date": "2025-05-04",
+      "count": 19
+    },
+    {
+      "category": "ICU_appointment",
+      "event_date": "2025-05-04",
+      "count": 23
+    },
+    {
+      "category": "ICU_surgery",
+      "event_date": "2025-05-04",
+      "count": 17
+    }
+  ]
+}
